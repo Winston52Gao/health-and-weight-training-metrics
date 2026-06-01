@@ -1,0 +1,14 @@
+# Ignore all files and folders under data/
+/data/
+
+# Ignore environment files
+.env
+.env.*
+
+# Common Python ignores
+__pycache__/
+*.py[cod]
+.python-version
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

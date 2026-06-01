@@ -1,0 +1,9 @@
+sentence-transformers
+faiss-cpu
+PyMuPDF
+numpy
+pandas
+requests
+python-dotenv
+pandas
+python-dateutil
