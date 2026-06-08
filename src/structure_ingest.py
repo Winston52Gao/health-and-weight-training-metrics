@@ -31,7 +31,8 @@ def pdf_loader(pdf_path: Path) -> List[Dict[str, Any]]:
     for i in range(len(doc)):
         page = doc.load_page(i)
         text = page.get_text("text")
-        pages.append({"page_number": i + 1, "text": text})
+        pages.append({"page_number": i + 1, "text": text}
+                     )
     doc.close()
     return pages
 
@@ -40,7 +41,7 @@ def toc_extractor(pages: List[Dict[str, Any]], toc_pages: List[int] = [2, 3]) ->
     """Extract TOC entries from given pages (1-based indices).
 
     Returns ordered list of (title, start_page).
-    Uses simple regex heuristics to find lines ending in a page number.
+    Uses simple regex heuristics to find lines ending in a page number
     """
     entries: List[Tuple[str, int]] = []
     page_map = {p["page_number"]: p["text"] for p in pages}
@@ -129,7 +130,12 @@ def structure_parser(pages: List[Dict[str, Any]], toc_map: Dict[int, str]) -> Li
     Returns list of paragraphs: {text, page, detected_heading (opt), section_name (opt), confidence}
     """
     paragraphs = []
-    # extract a flat list of paragraphs with page numbers
+    # prepare a list of unique TOC titles for fuzzy matching
+    toc_titles = list(set(toc_map.values())) if toc_map else []
+
+    # extract a flat list of paragraphs with page numbers and maintain
+    # a current_section state within each page so sections can change
+    # mid-page when a detected heading appears.
     for p in pages:
         page_no = p["page_number"]
         raw = p["text"]
@@ -138,35 +144,39 @@ def structure_parser(pages: List[Dict[str, Any]], toc_map: Dict[int, str]) -> Li
         # detect headings on the page
         headings = detect_headings_on_page(raw)
         heading_texts = [h[0] for h in headings]
+
+        # initialize current section for this page from TOC mapping if present
+        current_section: Optional[str] = toc_map.get(page_no)
+        # confidence associated with the current_section source
+        current_confidence: float = 0.9 if page_no in toc_map else 0.25
+
         for para in parts:
             para_entry = {"text": para, "page": page_no, "detected_heading": None, "section_name": None, "confidence": 0.0}
-            # if paragraph matches a heading exactly, mark it
+            # examine the first line to see if this paragraph is a heading
             first_line = para.splitlines()[0].strip()
             if first_line in heading_texts:
+                # mark detected heading and update current_section
                 para_entry["detected_heading"] = first_line
-            # assign section via toc_map if available
-            if page_no in toc_map:
-                para_entry["section_name"] = toc_map[page_no]
-                para_entry["confidence"] = 0.9
-            else:
-                # try to assign using detected heading if present
-                if para_entry["detected_heading"]:
-                    # fuzzy match to TOC titles
-                    toc_titles = list(set(toc_map.values())) if toc_map else []
-                    if toc_titles:
-                        matches = difflib.get_close_matches(para_entry["detected_heading"], toc_titles, n=1, cutoff=0.6)
-                        if matches:
-                            para_entry["section_name"] = matches[0]
-                            para_entry["confidence"] = 0.75
-                        else:
-                            para_entry["section_name"] = para_entry["detected_heading"]
-                            para_entry["confidence"] = 0.6
+                # fuzzy match heading to TOC titles when available
+                if toc_titles:
+                    matches = difflib.get_close_matches(first_line, toc_titles, n=1, cutoff=0.6)
+                    if matches:
+                        current_section = matches[0]
+                        current_confidence = 0.75
                     else:
-                        para_entry["section_name"] = para_entry["detected_heading"]
-                        para_entry["confidence"] = 0.5
+                        current_section = first_line
+                        current_confidence = 0.6
                 else:
-                    para_entry["confidence"] = 0.25
+                    current_section = first_line
+                    current_confidence = 0.5
+
+            # assign the current section (which may have been initialized from
+            # the page-level TOC or updated by a detected heading above)
+            para_entry["section_name"] = current_section
+            para_entry["confidence"] = current_confidence if current_section is not None else 0.25
+
             paragraphs.append(para_entry)
+
     return paragraphs
 
 
