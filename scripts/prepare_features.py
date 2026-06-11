@@ -46,7 +46,7 @@ def parse_start_date(s: str) -> pd.Timestamp | pd.NaT:
 
 def load_inputs():
     workouts_path = ROOT / "data" / "workouts.csv"
-    fitbit_path = ROOT / "fitbit_merged.csv"
+    fitbit_path = ROOT / "data" / "fitbit_merged.csv"
     w = pd.read_csv(workouts_path)
     f = pd.read_csv(fitbit_path)
     return w, f
@@ -55,7 +55,8 @@ def load_inputs():
 def standardize_workout_dates(w: pd.DataFrame) -> pd.DataFrame:
     w = w.copy()
     w["parsed_start"] = w["start_time"].astype(str).apply(parse_start_date)
-    w["date"] = pd.to_datetime(w["parsed_start"]).dt.date
+    # Keep as Timestamp (normalized) to avoid mixing python date objects vs timestamps
+    w["date"] = pd.to_datetime(w["parsed_start"]).dt.normalize()
     w = w.drop(columns=["parsed_start"])
     return w
 
@@ -67,12 +68,23 @@ def aggregate_workouts(w: pd.DataFrame) -> pd.DataFrame:
     If `sets` not present, total_sets will be the count of rows aggregated.
     """
     w = w.copy()
-    # coerce numeric
-    for col in ["weight", "reps"]:
-        if col in w.columns:
-            w[col] = pd.to_numeric(w[col], errors="coerce").fillna(0)
-        else:
-            w[col] = 0
+    # detect weight column (common variants) and coerce numeric
+    weight_candidates = ["weight", "weight_kg", "weight_lb", "weight_kg_", "kg"]
+    weight_col = None
+    for c in weight_candidates:
+        if c in w.columns:
+            weight_col = c
+            break
+    if weight_col is None:
+        w["weight"] = 0.0
+    else:
+        w["weight"] = pd.to_numeric(w[weight_col], errors="coerce").fillna(0)
+
+    # reps
+    if "reps" in w.columns:
+        w["reps"] = pd.to_numeric(w["reps"], errors="coerce").fillna(0)
+    else:
+        w["reps"] = 0
 
     # estimated 1RM per row (Epley)
     w["est_1RM_set"] = w["weight"] * (1 + w["reps"] / 30)
@@ -91,14 +103,14 @@ def aggregate_workouts(w: pd.DataFrame) -> pd.DataFrame:
         agg_funcs["sets"] = "sum"
 
     grouped = (
-        w.groupby(["date", "exercise"], dropna=False)
+        w.groupby(["date", "exercise_title"], dropna=False)
         .agg(agg_funcs)
         .reset_index()
     )
     # flatten columns
     grouped.columns = [
         "date",
-        "exercise",
+        "exercise_title",
         "avg_weight",
         "max_weight",
         "total_reps",
@@ -107,35 +119,46 @@ def aggregate_workouts(w: pd.DataFrame) -> pd.DataFrame:
 
     # if total_sets not present (no sets column), approximate by counting rows per group
     if "total_sets" not in grouped.columns:
-        counts = w.groupby(["date", "exercise"]).size().reset_index(name="total_sets")
-        grouped = grouped.merge(counts, on=["date", "exercise"], how="left")
+        counts = w.groupby(["date", "exercise_title"]).size().reset_index(name="total_sets")
+        grouped = grouped.merge(counts, on=["date", "exercise_title"], how="left")
 
     # total_volume = sum(weight * reps) per group
     w["volume"] = w["weight"] * w["reps"]
-    vol = w.groupby(["date", "exercise"])['volume'].sum().reset_index(name='total_volume')
-    grouped = grouped.merge(vol, on=["date", "exercise"], how="left")
+    vol = w.groupby(["date", "exercise_title"])['volume'].sum().reset_index(name='total_volume')
+    grouped = grouped.merge(vol, on=["date", "exercise_title"], how="left")
 
     # ensure date is datetime
     grouped["date"] = pd.to_datetime(grouped["date"]).dt.normalize()
 
     # reorder
-    cols = ["date", "exercise", "total_volume", "total_sets", "avg_weight", "max_weight", "total_reps", "best_est_1RM"]
+    cols = ["date", "exercise_title", "total_volume", "total_sets", "avg_weight", "max_weight", "total_reps", "best_est_1RM"]
     return grouped[cols]
 
 
 def compute_per_exercise_time_features(sess: pd.DataFrame) -> pd.DataFrame:
     df = sess.copy()
-    df = df.sort_values(["exercise", "date"])
+    df = df.sort_values(["exercise_title", "date"])
 
     out_frames = []
-    for ex, g in df.groupby("exercise", sort=False):
+    for ex, g in df.groupby("exercise_title", sort=False):
         g = g.sort_values("date").set_index("date")
+
+        # ensure numeric types
+        for c in ["best_est_1RM", "total_volume"]:
+            if c in g.columns:
+                g[c] = pd.to_numeric(g[c], errors="coerce").fillna(0)
+
 
         # rolling best up to previous session (no leakage)
         g["rolling_best_prev"] = g["best_est_1RM"].cummax().shift(1)
 
-        # relative strength (current best / prior best)
-        g["relative_strength"] = g["best_est_1RM"] / g["rolling_best_prev"]
+        # relative strength (current best / prior best) — guard divide-by-zero
+        g["relative_strength"] = np.where(
+            g["rolling_best_prev"] > 0,
+            g["best_est_1RM"] / g["rolling_best_prev"],
+            np.nan,
+        )
+
 
         # target: delta relative strength at next session
         g["next_relative_strength"] = g["relative_strength"].shift(-1)
@@ -163,10 +186,11 @@ def compute_per_exercise_time_features(sess: pd.DataFrame) -> pd.DataFrame:
         # normalize weekly_volume per exercise via rolling z-score (no global normalization)
         vol_mean = g["weekly_volume"].rolling("56D", closed="left").mean()
         vol_std = g["weekly_volume"].rolling("56D", closed="left").std(ddof=0)
+        vol_std = vol_std.replace(0, np.nan)
         g["weekly_volume_z"] = (g["weekly_volume"] - vol_mean) / vol_std
 
-        # days since last PR per exercise
-        pr_dates = g.index.where(g["is_pr"] == 1)
+        # days since last PR per exercise — compute last PR date before current
+        pr_dates = pd.Series(g.index.where(g["is_pr"] == 1), index=g.index)
         last_pr_before = pr_dates.ffill().shift(1)
         g["days_since_last_pr"] = (g.index.to_series() - last_pr_before).dt.days
 
@@ -178,13 +202,18 @@ def compute_per_exercise_time_features(sess: pd.DataFrame) -> pd.DataFrame:
         grp_id = g["is_pr"].cumsum()
         g["sessions_since_last_pr"] = g.groupby(grp_id).cumcount()
         g["sessions_since_last_pr"] = g["sessions_since_last_pr"].shift(1)
+        g["sessions_since_last_pr"] = g["sessions_since_last_pr"].where(g["sessions_since_last_pr"].notna(), np.nan)
 
-        # distance to personal best (relative)
-        g["distance_to_personal_best"] = (g["rolling_best_prev"] - g["best_est_1RM"]) / g["rolling_best_prev"]
+        # distance to personal best (relative) — guard divide-by-zero
+        g["distance_to_personal_best"] = np.where(
+            g["rolling_best_prev"] > 0,
+            (g["rolling_best_prev"] - g["best_est_1RM"]) / g["rolling_best_prev"],
+            np.nan,
+        )
 
         out_frames.append(g.reset_index())
 
-    result = pd.concat(out_frames, axis=0).sort_values(["exercise", "date"]).reset_index(drop=True)
+    result = pd.concat(out_frames, axis=0).sort_values(["exercise_title", "date"]).reset_index(drop=True)
     return result
 
 
@@ -235,7 +264,7 @@ def assemble_feature_sets(merged: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFr
     # Model 1 features
     model1_cols = [
         "date",
-        "exercise",
+        "exercise_title",
         "relative_strength",
         "delta_relative_strength_next_session",
         "sleep_minutes",
@@ -273,7 +302,7 @@ def save_outputs(merged: pd.DataFrame, model1: pd.DataFrame, model2: pd.DataFram
     # column definitions
     defs = {
         "date": "Session date (YYYY-MM-DD)",
-        "exercise": "Exercise name",
+        "exercise_title": "Exercise name",
         "total_volume": "Sum of weight*reps for the session",
         "total_sets": "Total sets in session",
         "avg_weight": "Average weight used in session",
