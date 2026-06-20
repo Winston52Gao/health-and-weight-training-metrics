@@ -135,6 +135,38 @@ def aggregate_workouts(w: pd.DataFrame) -> pd.DataFrame:
     return grouped[cols]
 
 
+def filter_workouts(w: pd.DataFrame, cutoff_date: str = "2023-10-01") -> pd.DataFrame:
+    """Filter out unwanted workouts.
+
+    - drop cardio entries matching treadmill or air bike (case-insensitive)
+    - drop any sessions before `cutoff_date` (inclusive cutoff keeps >= cutoff_date)
+    """
+    w = w.copy()
+    # ensure exercise_title column exists
+    if "exercise_title" not in w.columns and "exercise" in w.columns:
+        w = w.rename(columns={"exercise": "exercise_title"})
+
+    # normalize text for matching
+    if "exercise_title" in w.columns:
+        ex = w["exercise_title"].astype(str).str.lower()
+    else:
+        ex = pd.Series([""] * len(w))
+
+    cardio_mask = ex.str.contains("treadmill") | ex.str.contains(r"air\s*-?bike")
+
+    # drop cardio rows
+    if cardio_mask.any():
+        w = w.loc[~cardio_mask].copy()
+
+    # drop rows before cutoff_date
+    cutoff = pd.to_datetime(cutoff_date).normalize()
+    if "date" in w.columns:
+        w["date"] = pd.to_datetime(w["date"]) 
+        w = w.loc[w["date"] >= cutoff].copy()
+
+    return w
+
+
 def compute_per_exercise_time_features(sess: pd.DataFrame) -> pd.DataFrame:
     df = sess.copy()
     df = df.sort_values(["exercise_title", "date"])
@@ -235,7 +267,7 @@ def compute_fitbit_features(f: pd.DataFrame) -> pd.DataFrame:
 
     # heart rate features
     hr_col = None
-    for candidate in ["resting_heart_rate", "resting_hr", "resting_heart"]:
+    for candidate in ["resting_heart_rate", "resting_hr", "resting_heart", "avg_heart_rate"]:
         if candidate in f.columns:
             hr_col = candidate
             break
@@ -338,6 +370,8 @@ def save_outputs(merged: pd.DataFrame, model1: pd.DataFrame, model2: pd.DataFram
 def main():
     w, f = load_inputs()
     w = standardize_workout_dates(w)
+    # filter out cardio and early sporadic data prior to consistent tracking
+    w = filter_workouts(w, cutoff_date="2023-10-01")
     sess = aggregate_workouts(w)
     sess_feats = compute_per_exercise_time_features(sess)
     fitbit_feats = compute_fitbit_features(f)

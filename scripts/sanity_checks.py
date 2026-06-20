@@ -122,7 +122,7 @@ def generate_report():
     df, f1, f2 = load_files()
     if df is None:
         raise FileNotFoundError("data/processed_merged.csv not found — run prepare_features.py first")
-
+    # Full dataset report
     lines = ["# Sanity Report\n\n"]
     lines.append(missingness_report(df))
     lines.append(target_report(df))
@@ -150,6 +150,55 @@ def generate_report():
     out.write_text(report, encoding="utf8")
     print(f"Wrote {out}")
 
+    # Second report: only data on/after 2024-12-01
+    cutoff = pd.to_datetime("2024-12-01").normalize()
+    df_post = df.loc[pd.to_datetime(df["date"]) >= cutoff].copy()
+    lines2 = [f"# Sanity Report — subset from {cutoff.date()} onward\n\n"]
+    lines2.append(missingness_report(df_post))
+    lines2.append(target_report(df_post))
+    lines2.append(per_exercise_report(df_post))
+    lines2.append(rolling_feature_sanity(df_post))
+    lines2.append(date_sort_checks(df_post))
+
+    num2 = df_post.select_dtypes(include=["number"]).drop(columns=[c for c in ["PR_next_session"] if c in df_post.columns], errors="ignore")
+    if not num2.empty:
+        corr2 = num2.corr().abs()
+        pairs2 = []
+        cols2 = corr2.columns
+        for i in range(len(cols2)):
+            for j in range(i+1, len(cols2)):
+                pairs2.append((cols2[i], cols2[j], corr2.iloc[i,j]))
+        pairs2_sorted = sorted(pairs2, key=lambda x: -x[2])[:20]
+        lines2.append("## Top absolute correlations (numeric features) — subset\n")
+        for a,b,v in pairs2_sorted:
+            lines2.append(f"- {a} vs {b}: {v:.3f}\n")
+
+    # simple comparison section
+    lines2.append("\n## Comparison to full dataset\n\n")
+    full_rows = len(df)
+    post_rows = len(df_post)
+    lines2.append(f"- total rows (full / post): {full_rows} / {post_rows}\n")
+    # exercises
+    ex_full = df["exercise_title"].nunique() if "exercise_title" in df.columns else 0
+    ex_post = df_post["exercise_title"].nunique() if "exercise_title" in df_post.columns else 0
+    lines2.append(f"- distinct exercises (full / post): {ex_full} / {ex_post}\n")
+    # PR next session positives
+    if "PR_next_session" in df.columns:
+        pr_full = int(df["PR_next_session"].fillna(0).astype(int).sum())
+        pr_post = int(df_post["PR_next_session"].fillna(0).astype(int).sum())
+        lines2.append(f"- PR_next_session positives (full / post): {pr_full} / {pr_post}\n")
+    # resting_hr availability
+    if "resting_hr" in df.columns:
+        avail_full = int(df["resting_hr"].notna().sum())
+        avail_post = int(df_post["resting_hr"].notna().sum())
+        lines2.append(f"- resting_hr non-missing (full / post): {avail_full} / {avail_post}\n")
+
+    report2 = "".join(lines2)
+    out2 = DATA / "sanity_report_post_2024-12-01.md"
+    out2.write_text(report2, encoding="utf8")
+    print(f"Wrote {out2}")
+
 
 if __name__ == "__main__":
     generate_report()
+
