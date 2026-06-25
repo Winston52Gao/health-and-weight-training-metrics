@@ -204,22 +204,32 @@ def compute_per_exercise_time_features(sess: pd.DataFrame) -> pd.DataFrame:
         g["next_best"] = g["best_est_1RM"].shift(-1)
         g["PR_next_session"] = (g["next_best"] > g["rolling_max_including_current"]).astype(int)
 
-        # time-based rolling for volume: weekly (7d), 28d, 56d baseline
+        # time-based rolling for volume: 28d and 56d baselines
         g.index = pd.to_datetime(g.index)
         g = g.sort_index()
-        g["weekly_volume"] = g["total_volume"].rolling("7D", closed="left").sum()
         g["volume_28d_avg"] = g["total_volume"].rolling("28D", closed="left").mean()
         g["volume_56d_avg"] = g["total_volume"].rolling("56D", closed="left").mean()
-        # avoid leakage: these are already excluding current via closed='left'
+        # ratios relative to 28d/56d baselines
+        g["volume_28d_ratio"] = np.where(
+            g["volume_28d_avg"] > 0,
+            g["total_volume"] / g["volume_28d_avg"],
+            np.nan,
+        )
+        g["volume_56d_ratio"] = np.where(
+            g["volume_56d_avg"] > 0,
+            g["total_volume"] / g["volume_56d_avg"],
+            np.nan,
+        )
+        # z-scores based on 28d/56d rolling baselines
+        vol28_mean = g["total_volume"].rolling("28D", closed="left").mean()
+        vol28_std = g["total_volume"].rolling("28D", closed="left").std(ddof=0)
+        vol28_std = vol28_std.replace(0, np.nan)
+        g["volume_28d_z"] = (g["total_volume"] - vol28_mean) / vol28_std
 
-        # volume ratio: weekly / 8-week baseline (use 56d mean)
-        g["volume_ratio"] = g["weekly_volume"] / g["volume_56d_avg"]
-
-        # normalize weekly_volume per exercise via rolling z-score (no global normalization)
-        vol_mean = g["weekly_volume"].rolling("56D", closed="left").mean()
-        vol_std = g["weekly_volume"].rolling("56D", closed="left").std(ddof=0)
-        vol_std = vol_std.replace(0, np.nan)
-        g["weekly_volume_z"] = (g["weekly_volume"] - vol_mean) / vol_std
+        vol56_mean = g["total_volume"].rolling("56D", closed="left").mean()
+        vol56_std = g["total_volume"].rolling("56D", closed="left").std(ddof=0)
+        vol56_std = vol56_std.replace(0, np.nan)
+        g["volume_56d_z"] = (g["total_volume"] - vol56_mean) / vol56_std
 
         # days since last PR per exercise — compute last PR date before current
         pr_dates = pd.Series(g.index.where(g["is_pr"] == 1), index=g.index)
@@ -305,10 +315,12 @@ def assemble_feature_sets(merged: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFr
         "resting_hr",
         "hr_7d_avg",
         "hr_baseline_z",
-        "weekly_volume",
         "volume_28d_avg",
-        "volume_ratio",
-        "weekly_volume_z",
+        "volume_56d_avg",
+        "volume_28d_ratio",
+        "volume_56d_ratio",
+        "volume_28d_z",
+        "volume_56d_z",
         "days_since_last_pr",
         "pr_freq_90d",
         "sessions_since_last_pr",
@@ -351,11 +363,12 @@ def save_outputs(merged: pd.DataFrame, model1: pd.DataFrame, model2: pd.DataFram
         "resting_hr": "Resting heart rate on session date",
         "hr_7d_avg": "7-day average resting HR (prior days)",
         "hr_baseline_z": "Z-score of resting HR relative to 56-day window",
-        "weekly_volume": "Sum of volume in previous 7 days (per exercise)",
-        "volume_28d_avg": "28-day avg volume (prior days)",
-        "volume_56d_avg": "56-day avg volume (prior days)",
-        "volume_ratio": "weekly_volume / 56-day avg",
-        "weekly_volume_z": "Per-exercise z-score for weekly volume (rolling)",
+        "volume_28d_avg": "28-day rolling average volume (prior days)",
+        "volume_56d_avg": "56-day rolling average volume (prior days)",
+        "volume_28d_ratio": "Current session volume divided by the 28-day average",
+        "volume_56d_ratio": "Current session volume divided by the 56-day average",
+        "volume_28d_z": "Z-score of current volume relative to the 28-day rolling baseline",
+        "volume_56d_z": "Z-score of current volume relative to the 56-day rolling baseline",
         "days_since_last_pr": "Days since last per-exercise PR",
         "pr_freq_90d": "Number of PRs in the previous 90 days",
         "sessions_since_last_pr": "Sessions since last PR",

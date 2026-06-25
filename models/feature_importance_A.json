@@ -1,0 +1,23 @@
+{
+  "relative_strength": 0.15091732144355774,
+  "rolling_best_prev": 0.03343679755926132,
+  "best_est_1RM": 0.03181355446577072,
+  "pr_gap": 0.07759812474250793,
+  "distance_to_personal_best": 0.0517418198287487,
+  "total_volume": 0.05357443913817406,
+  "volume_28d_avg": 0.032014764845371246,
+  "volume_56d_avg": 0.03336118161678314,
+  "volume_28d_ratio": 0.032331664115190506,
+  "volume_56d_ratio": 0.032686494290828705,
+  "volume_28d_z": 0.03393741697072983,
+  "volume_56d_z": 0.03346426784992218,
+  "total_sets": 0.036859799176454544,
+  "total_reps": 0.04242447391152382,
+  "avg_weight": 0.03881141543388367,
+  "max_weight": 0.03693481162190437,
+  "days_since_last_pr": 0.03126874938607216,
+  "sessions_since_last_pr": 0.06938162446022034,
+  "pr_freq_90d": 0.04584847390651703,
+  "training_age_sessions": 0.04532491788268089,
+  "training_age_days": 0.05626796931028366
+}

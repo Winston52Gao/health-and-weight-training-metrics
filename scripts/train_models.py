@@ -54,10 +54,6 @@ def add_recent_training_context(df: pd.DataFrame) -> pd.DataFrame:
         g = g.sort_index()
         # days since last session
         g["days_since_last_workout"] = g.index.to_series().diff().dt.days
-        # recent_volume = weekly_volume (already computed) fallback to total_volume
-        if "weekly_volume" not in g.columns:
-            g["weekly_volume"] = g["total_volume"].rolling("7D", closed='left').sum()
-        # ensure numeric
         g["days_since_last_workout"] = g["days_since_last_workout"].fillna(9999)
         out_frames.append(g.reset_index())
     return pd.concat(out_frames, ignore_index=True).sort_values(["exercise_title","date"]).reset_index(drop=True)
@@ -93,7 +89,10 @@ def train_xgb(X_train, y_train, X_val, y_val, params=None):
             "eval_metric": "logloss",
         }
     clf = xgb.XGBClassifier(**params)
-    clf.fit(X_train, y_train, early_stopping_rounds=20, eval_set=[(X_val, y_val)], verbose=False)
+    try:
+        clf.fit(X_train, y_train, early_stopping_rounds=20, eval_set=[(X_val, y_val)], verbose=False)
+    except TypeError:
+        clf.fit(X_train, y_train, eval_set=[(X_val, y_val)], verbose=False)
     return clf
 
 
@@ -101,10 +100,33 @@ def select_features(df, feat_list):
     return [c for c in feat_list if c in df.columns]
 
 
+def ensure_model_features(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    if "pr_gap" not in df.columns:
+        if "rolling_best_prev" in df.columns:
+            df["pr_gap"] = df["best_est_1RM"] - df["rolling_best_prev"]
+        else:
+            df["pr_gap"] = 0.0
+
+    if "distance_to_personal_best" not in df.columns:
+        if "rolling_best_prev" in df.columns and "best_est_1RM" in df.columns:
+            denom = df["rolling_best_prev"].replace(0, np.nan)
+            df["distance_to_personal_best"] = (df["rolling_best_prev"] - df["best_est_1RM"]) / denom
+        else:
+            df["distance_to_personal_best"] = 0.0
+
+    for col in ["days_since_last_pr", "sessions_since_last_pr", "pr_freq_90d"]:
+        if col not in df.columns:
+            df[col] = 0.0
+
+    return df
+
+
 def run():
     df = load_data()
     df = add_training_age(df)
     df = add_recent_training_context(df)
+    df = ensure_model_features(df)
 
     # only keep rows with PR_next_session label
     df = df[df["PR_next_session"].notnull()].copy()
@@ -115,7 +137,7 @@ def run():
     # --- Model A: workout history only ---
     features_A = [
         "relative_strength", "rolling_best_prev", "best_est_1RM", "pr_gap", "distance_to_personal_best",
-        "total_volume", "weekly_volume", "volume_28d_avg", "volume_56d_avg", "volume_ratio", "weekly_volume_z",
+        "total_volume", "volume_28d_avg", "volume_56d_avg", "volume_28d_ratio", "volume_56d_ratio", "volume_28d_z", "volume_56d_z",
         "total_sets", "total_reps", "avg_weight", "max_weight",
         "days_since_last_pr", "sessions_since_last_pr", "pr_freq_90d",
         "training_age_sessions", "training_age_days"
@@ -154,8 +176,8 @@ def run():
     features_B = [
         "sleep_minutes", "sleep_7d_avg", "sleep_dev_from_14d",
         "resting_hr", "hr_7d_avg", "hr_baseline_z",
-        "steps", "steps_7d_avg",
-        "weekly_volume", "days_since_last_workout", "training_age_sessions"
+        "volume_28d_avg", "volume_56d_avg", "volume_28d_ratio", "volume_56d_z",
+        "days_since_last_workout", "training_age_sessions"
     ]
     featsB = select_features(dfB, features_B)
     print('Model B features used:', featsB)
