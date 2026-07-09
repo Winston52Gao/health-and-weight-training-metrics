@@ -7,3 +7,5 @@ requests
 python-dotenv
 pandas
 python-dateutil
+xgboost
+scikit-survival

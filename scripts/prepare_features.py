@@ -220,6 +220,11 @@ def compute_per_exercise_time_features(sess: pd.DataFrame) -> pd.DataFrame:
             g["total_volume"] / g["volume_56d_avg"],
             np.nan,
         )
+        g["volume_ratio_28_56"] = np.where(
+            g["volume_56d_avg"] > 0,
+            g["volume_28d_avg"] / g["volume_56d_avg"],
+            np.nan,
+        )
         # z-scores based on 28d/56d rolling baselines
         vol28_mean = g["total_volume"].rolling("28D", closed="left").mean()
         vol28_std = g["total_volume"].rolling("28D", closed="left").std(ddof=0)
@@ -248,6 +253,11 @@ def compute_per_exercise_time_features(sess: pd.DataFrame) -> pd.DataFrame:
 
         # distance to personal best (relative) — guard divide-by-zero
         g["distance_to_personal_best"] = np.where(
+            g["rolling_best_prev"] > 0,
+            (g["rolling_best_prev"] - g["best_est_1RM"]) / g["rolling_best_prev"],
+            np.nan,
+        )
+        g["pr_gap_percent"] = np.where(
             g["rolling_best_prev"] > 0,
             (g["rolling_best_prev"] - g["best_est_1RM"]) / g["rolling_best_prev"],
             np.nan,
@@ -289,9 +299,14 @@ def compute_fitbit_features(f: pd.DataFrame) -> pd.DataFrame:
     else:
         f["resting_hr"] = np.nan
 
+    if "steps" in f.columns:
+        f["steps_7d_avg"] = f["steps"].rolling("7D", closed="left").mean().shift(1)
+    else:
+        f["steps_7d_avg"] = np.nan
+
     # keep index as column for merging
     out = f.reset_index()
-    to_keep = [c for c in ["date", "sleep_minutes", "sleep_7d_avg", "sleep_dev_from_14d", "resting_hr", "hr_7d_avg", "hr_baseline_z"] if c in out.columns]
+    to_keep = [c for c in ["date", "sleep_minutes", "sleep_7d_avg", "sleep_dev_from_14d", "resting_hr", "hr_7d_avg", "hr_baseline_z", "steps_7d_avg"] if c in out.columns]
     return out[to_keep]
 
 
@@ -319,8 +334,10 @@ def assemble_feature_sets(merged: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFr
         "volume_56d_avg",
         "volume_28d_ratio",
         "volume_56d_ratio",
+        "volume_ratio_28_56",
         "volume_28d_z",
         "volume_56d_z",
+        "pr_gap_percent",
         "days_since_last_pr",
         "pr_freq_90d",
         "sessions_since_last_pr",
@@ -363,12 +380,15 @@ def save_outputs(merged: pd.DataFrame, model1: pd.DataFrame, model2: pd.DataFram
         "resting_hr": "Resting heart rate on session date",
         "hr_7d_avg": "7-day average resting HR (prior days)",
         "hr_baseline_z": "Z-score of resting HR relative to 56-day window",
+        "steps_7d_avg": "7-day average steps (prior days)",
         "volume_28d_avg": "28-day rolling average volume (prior days)",
         "volume_56d_avg": "56-day rolling average volume (prior days)",
         "volume_28d_ratio": "Current session volume divided by the 28-day average",
         "volume_56d_ratio": "Current session volume divided by the 56-day average",
+        "volume_ratio_28_56": "Ratio of 28-day average volume to 56-day average volume",
         "volume_28d_z": "Z-score of current volume relative to the 28-day rolling baseline",
         "volume_56d_z": "Z-score of current volume relative to the 56-day rolling baseline",
+        "pr_gap_percent": "Percent gap between prior personal best and current estimated 1RM",
         "days_since_last_pr": "Days since last per-exercise PR",
         "pr_freq_90d": "Number of PRs in the previous 90 days",
         "sessions_since_last_pr": "Sessions since last PR",

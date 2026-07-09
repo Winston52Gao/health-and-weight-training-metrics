@@ -1,0 +1,50 @@
+[
+  {
+    "exercise": "Preacher Curl (Barbell)",
+    "expected_sessions_to_PR": 46.17755763194981,
+    "confidence_interval": [
+      4.0,
+      133.0
+    ]
+  },
+  {
+    "exercise": "Incline Bench Press (Dumbbell)",
+    "expected_sessions_to_PR": 26.174804580141092,
+    "confidence_interval": [
+      1.0,
+      15.0
+    ]
+  },
+  {
+    "exercise": "Single Arm Triceps Pushdown (Cable)",
+    "expected_sessions_to_PR": 30.853340453346345,
+    "confidence_interval": [
+      3.0,
+      29.0
+    ]
+  },
+  {
+    "exercise": "Jefferson Curl",
+    "expected_sessions_to_PR": 27.412848374732512,
+    "confidence_interval": [
+      2.0,
+      12.0
+    ]
+  },
+  {
+    "exercise": "Overhead Press (Barbell)",
+    "expected_sessions_to_PR": 67.41992490606194,
+    "confidence_interval": [
+      7.0,
+      133.0
+    ]
+  },
+  {
+    "exercise": "Pull Up",
+    "expected_sessions_to_PR": 103.39142260821114,
+    "confidence_interval": [
+      133.0,
+      133.0
+    ]
+  }
+]

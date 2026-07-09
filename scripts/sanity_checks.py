@@ -78,9 +78,7 @@ def per_exercise_report(df: pd.DataFrame, min_sessions=10) -> str:
 
 def rolling_feature_sanity(df: pd.DataFrame) -> str:
     lines = ["## Rolling-feature sanity checks\n"]
-    checks = []
-    # weekly_volume should be NaN for earliest records where no prior days
-    if "weekly_volume" in df.columns:
+    if "volume_28d_avg" in df.columns:
         grp = df.groupby("exercise_title")
         count_bad = 0
         total = 0
@@ -88,21 +86,19 @@ def rolling_feature_sanity(df: pd.DataFrame) -> str:
             g = g.sort_values("date")
             total += 1
             first = g.iloc[0]
-            # weekly_volume computed with closed='left' should be NaN or 0 for first session
-            if not (math.isnan(first.get("weekly_volume", float('nan'))) or first.get("weekly_volume", 0) == 0):
+            if not (math.isnan(first.get("volume_28d_avg", float("nan"))) or first.get("volume_28d_avg", 0) == 0):
                 count_bad += 1
-        lines.append(f"- exercises where first-session weekly_volume is not NA/0: {count_bad} / {total}\n")
+        lines.append(f"- exercises where first-session volume_28d_avg is not NA/0: {count_bad} / {total}\n")
 
-    # weekly_volume_z should have roughly zero mean per exercise (where enough data)
-    if "weekly_volume_z" in df.columns:
+    if "volume_56d_z" in df.columns:
         grp = df.groupby("exercise_title")
         deviations = []
         for _, g in grp:
-            s = g["weekly_volume_z"].dropna()
+            s = g["volume_56d_z"].dropna()
             if len(s) >= 5:
                 deviations.append(s.mean())
         if deviations:
-            lines.append(f"- mean of weekly_volume_z across exercises (median): {np.median(deviations):.3f}\n")
+            lines.append(f"- mean of volume_56d_z across exercises (median): {np.median(deviations):.3f}\n")
     lines.append("\n")
     return "".join(lines)
 
