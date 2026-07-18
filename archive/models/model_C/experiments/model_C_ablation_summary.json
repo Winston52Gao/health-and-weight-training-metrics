@@ -1,0 +1,21 @@
+{
+  "best_model_by_c_index": "Workout + Fitbit",
+  "best_model_by_ibs": "Workout only",
+  "best_model_by_mae": "Baseline median",
+  "production_recommendation": "Workout only",
+  "documented_variants": [
+    "Model C with Model A predictions (historical stacked experiment)",
+    "Model C without Model A predictions",
+    "Workout-only Model C",
+    "Workout + Fitbit Model C"
+  ],
+  "production_decision": "Workout-only Model C selected because it provided the best balance of C-index, IBS, MAE, simplicity, and deployment reliability.",
+  "reasoning": [
+    "Best test C-index: Workout + Fitbit (0.8321).",
+    "Best test IBS (lower is better): Workout only (0.0650).",
+    "Best test MAE on uncensored events: Baseline median (3.4554).",
+    "Fitbit-period-only sensitivity analysis was run because at least one Fitbit feature had non-null coverage below 80%."
+  ],
+  "fitbit_missing_threshold": 0.8,
+  "fitbit_period_start": "2024-11-01"
+}

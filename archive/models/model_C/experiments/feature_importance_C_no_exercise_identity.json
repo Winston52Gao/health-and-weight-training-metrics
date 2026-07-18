@@ -1,0 +1,15 @@
+{
+  "relative_strength": NaN,
+  "rolling_best_prev": NaN,
+  "best_est_1RM": NaN,
+  "pr_gap_percent": NaN,
+  "volume_28d_avg": NaN,
+  "volume_56d_avg": NaN,
+  "volume_ratio_28_56": NaN,
+  "sessions_since_last_pr": NaN,
+  "days_since_last_pr": NaN,
+  "pr_freq_90d": NaN,
+  "training_age_sessions": NaN,
+  "training_age_days": NaN,
+  "model_a_score": NaN
+}

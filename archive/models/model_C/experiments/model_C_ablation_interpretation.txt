@@ -1,0 +1,6 @@
+Model C ablation interpretation
+Removing model_a_score causes almost no test C-index change; stacked Model A adds minimal incremental ranking value.
+Model A only is materially below full, indicating engineered workout features still contribute substantial survival signal.
+Largest test C-index drop comes from removing progression features (drop=0.0734).
+Removing exercise identity causes a meaningful drop, suggesting exercise context is an important predictor.
+Architectural conclusion should prioritize experiments with highest validation/test C-index and stable IBS, with MAE treated as diagnostic.

@@ -1,0 +1,5225 @@
+{
+  "model_version": "C_workout_only_v1",
+  "forecasts": [
+    {
+      "exercise": "Seated Wrist Extension (Barbell)",
+      "current_best_1RM": 15.876,
+      "expected_sessions_until_pr": 8.732742187777571,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.448219908353644
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6983741800828558
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7997571474655488
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8964367135181903
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.9112782084888166
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.9249035556798741
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.9325030372982104
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9365219031676801
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9402997775195294
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 8
+    },
+    {
+      "exercise": "Chest fly plus",
+      "current_best_1RM": 7.938,
+      "expected_sessions_until_pr": 8.972055888055968,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4627341393203297
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.7176846108056611
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.8222929066537674
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8945202880867704
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.9101529695900658
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.9222669026359782
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.9298546035452734
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9335752628109486
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9363755233744714
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 5
+    },
+    {
+      "exercise": "Lunge (Dumbbell)",
+      "current_best_1RM": 12.698,
+      "expected_sessions_until_pr": 5.651735478054528,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4233750611307613
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.7182406696586128
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.8151390980955424
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.894777993762955
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.9084157916104023
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.9247295284800703
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.9399067338732273
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9527356120577555
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9590097494602898
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 5
+    },
+    {
+      "exercise": "Chest Fly (Dumbbell)",
+      "current_best_1RM": 12.439333333333334,
+      "expected_sessions_until_pr": 6.205442045185011,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4078119436539738
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6815389982881479
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7909847961869829
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8797990555493725
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.9035861602254845
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.927810713104845
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.946563096800087
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9585680142944132
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9654983837384555
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 8
+    },
+    {
+      "exercise": "Side neck curl",
+      "current_best_1RM": 11.488666666666669,
+      "expected_sessions_until_pr": 8.814717106403105,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.5155683999424046
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.7396379349008732
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.8000036585506056
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8699422693320211
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8934903606603137
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.9166362023142819
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.928034860112503
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9326407790397306
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9391568276745252
+        }
+      ],
+      "50_percent_probability_window": 1,
+      "80_percent_probability_window": 5
+    },
+    {
+      "exercise": "Neck curl (plate)",
+      "current_best_1RM": 24.498,
+      "expected_sessions_until_pr": 10.876414296105398,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.5398322951864305
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.7876941258208435
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.8252814292829561
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8683874700775525
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8930045987138612
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.9101298237341285
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.9155358497487348
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9243649108559084
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9250180241355549
+        }
+      ],
+      "50_percent_probability_window": 1,
+      "80_percent_probability_window": 5
+    },
+    {
+      "exercise": "Horizontal calf raise ",
+      "current_best_1RM": 139.70000000000002,
+      "expected_sessions_until_pr": 8.137775714474504,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4982391208882726
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.7368677816379282
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.8021937140310202
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8559459879876515
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8772243393605204
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.9036099618402738
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.9366696084836224
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9420237801018753
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9435166066596906
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 5
+    },
+    {
+      "exercise": "Back Extension (Weighted Hyperextension)",
+      "current_best_1RM": 11.333333333333332,
+      "expected_sessions_until_pr": 13.949975666445031,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4007095140969539
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6474745638772763
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.763899079391681
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8569424960781575
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8693521118201183
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8847548820955404
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8914207216337942
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8957036569506347
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8989527577654786
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 8
+    },
+    {
+      "exercise": "Mid row",
+      "current_best_1RM": 107.27066666666668,
+      "expected_sessions_until_pr": 8.168495559434625,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4082402726780684
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6473026917155482
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7539649113990443
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8227727224791955
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8514979086056267
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8790402409123221
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.9252322353343478
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9329323776338954
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9340954810294373
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 8
+    },
+    {
+      "exercise": "Shrug (Dumbbell)",
+      "current_best_1RM": 45.202666666666666,
+      "expected_sessions_until_pr": 14.046763212730845,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.43814871492996876
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6838716599905013
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7557787422948031
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.8140292122655669
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8310791841649958
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8693347603686534
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8878459455738115
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.897126770082235
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.898743590509621
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 8
+    },
+    {
+      "exercise": "hip thrust (cable)",
+      "current_best_1RM": 24.421333333333333,
+      "expected_sessions_until_pr": 14.521109135197197,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.22312147006103078
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.47298696483759195
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6493414016839316
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7742166162735349
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8127850261687445
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8551480720948137
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8821118449157859
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8951842074131833
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9023979066899162
+        }
+      ],
+      "50_percent_probability_window": 5,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Chest Fly (Band)",
+      "current_best_1RM": 21.0,
+      "expected_sessions_until_pr": 18.127269529567045,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3245797480688708
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6373608162910855
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7074411881370629
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7914055063488181
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8109320907450113
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8385251934757592
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.85147171870272
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.86324150625741
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8682020618843178
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Reverse Fly Single Arm (Cable)",
+      "current_best_1RM": 7.56,
+      "expected_sessions_until_pr": 19.831427536378044,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4006302061513445
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6501383298534484
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7042917581461768
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7827130578417185
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8090613254828248
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8315563057617689
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.852097609771798
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8574081731754892
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8608958105555282
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Preacher hammer curl ",
+      "current_best_1RM": 9.293333333333331,
+      "expected_sessions_until_pr": 19.891837931832047,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.39627130917664344
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.647012585133685
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.702198760820642
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7817606340298364
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8084097623931784
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8309664376288924
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8517984423969517
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8571090058006429
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8605966431806819
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Bent Over Row (Dumbbell)",
+      "current_best_1RM": 9.52,
+      "expected_sessions_until_pr": 19.924372191091308,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.39565464250997673
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6461686697897695
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7013970412439224
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7814230678922703
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.808114392022808
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8307132630257179
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8515874635609728
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.856898026964664
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.860385664344703
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Low Cable Fly Crossovers",
+      "current_best_1RM": 10.322,
+      "expected_sessions_until_pr": 19.921128833603383,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3972035555534551
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6461686697897695
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.7013970412439224
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7814230678922703
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.808114392022808
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8307132630257179
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8515874635609728
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.856898026964664
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.860385664344703
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Triceps Pushdown",
+      "current_best_1RM": 12.932666666666668,
+      "expected_sessions_until_pr": 19.945583294841974,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3967356154617486
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6442523528874329
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.699914229407081
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7809406301960169
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8077972837184464
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8306002830336261
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.851474483568881
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8567850469725722
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8602726843526112
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Romanian Deadlift (Dumbbell)",
+      "current_best_1RM": 24.186666666666667,
+      "expected_sessions_until_pr": 20.087300102079688,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3973129582968601
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6410632212372139
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6965253133517586
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7785589567560404
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8056777806100397
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8290225367034937
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8504933280433746
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8557171197759808
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8591934542887845
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Pullover (Machine)",
+      "current_best_1RM": 25.852666666666664,
+      "expected_sessions_until_pr": 20.103103256575466,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.39596323152090374
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.639334520293349
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6945730654630353
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7765172900893738
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8056777806100397
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8290225367034937
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8504933280433746
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8557171197759808
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8591934542887845
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Spider Curl (Dumbbell)",
+      "current_best_1RM": 26.533,
+      "expected_sessions_until_pr": 20.450972418136075,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3895581055229561
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6315219251806843
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6872391688340947
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7710626203810332
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8013380596675849
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8259198732293381
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8482950163306798
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8535188080632858
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8569951425760896
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Hack Squat (Machine)",
+      "current_best_1RM": 108.86666666666667,
+      "expected_sessions_until_pr": 20.198605047565337,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.4013732106092105
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6398084627043451
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6927225637571242
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7743935629354683
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8010944041797691
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8275266491014677
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8506620549230366
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8551747976749701
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8585364123549264
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Shoulder Press (Dumbbell)",
+      "current_best_1RM": 29.484,
+      "expected_sessions_until_pr": 20.50210586504744,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.38788191735901134
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6299208030258476
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6857478004671369
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.770026000050368
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8006551188204342
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8255063280433445
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8480012025496448
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8532249942822508
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8567013287950546
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Triceps Extension (Dumbbell)",
+      "current_best_1RM": 27.216,
+      "expected_sessions_until_pr": 20.50210586504744,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.38788191735901134
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6299208030258476
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6857478004671369
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.770026000050368
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8006551188204342
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8255063280433445
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8480012025496448
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8532249942822508
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8567013287950546
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Good Morning (Barbell)",
+      "current_best_1RM": 27.21333333333333,
+      "expected_sessions_until_pr": 20.50210586504744,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.38788191735901134
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6299208030258476
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6857478004671369
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.770026000050368
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.8006551188204342
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8255063280433445
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8480012025496448
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8532249942822508
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8567013287950546
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 10
+    },
+    {
+      "exercise": "Lateral Raise (Machine)",
+      "current_best_1RM": 39.306666666666665,
+      "expected_sessions_until_pr": 20.573354916544297,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3900036597142589
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.631827940305739
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6860586912407214
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7712636419250518
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7991848857476451
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8250329036509667
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8476506759290761
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8523860524163069
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8558108978190073
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Dumbbell Row",
+      "current_best_1RM": 34.02,
+      "expected_sessions_until_pr": 20.580705571056868,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3894795738872484
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6312303535051335
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6858554093817262
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7706401558284908
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7988507687776765
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8242745632530817
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8471754852430025
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8523645062216958
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8558408407344994
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Tibia Raises",
+      "current_best_1RM": 32.656,
+      "expected_sessions_until_pr": 15.551960839959431,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.2778628511138479
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5525056156240775
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.667401290039996
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7605417970172733
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.798138644681526
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8424140024714205
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8650556250893382
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8782510465657625
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8874154285897783
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Hip Thrust (Smith Machine)",
+      "current_best_1RM": 51.70533333333333,
+      "expected_sessions_until_pr": 20.445314596431984,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3893340547302193
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6321759099353355
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6870347908990522
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.770486003063939
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7979897306886611
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8251386048396339
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8487709697946965
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8535063462819273
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8568679609618836
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Seated Overhead Press (Barbell)",
+      "current_best_1RM": 54.580666666666666,
+      "expected_sessions_until_pr": 20.445314596431984,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3893340547302193
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6321759099353355
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6870347908990522
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.770486003063939
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7979897306886611
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8251386048396339
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8487709697946965
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8535063462819273
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8568679609618836
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Butterfly (Pec Deck)",
+      "current_best_1RM": 87.69333333333333,
+      "expected_sessions_until_pr": 20.37261681321753,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.38820536963715
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6328746691233624
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6877155501309509
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7701960390905174
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7974744461278579
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8254568700957245
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8494857706148771
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8541427381237348
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8575043528036911
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Bent Over Row (Barbell)",
+      "current_best_1RM": 77.57066666666667,
+      "expected_sessions_until_pr": 20.444131018403127,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.38698163495796256
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.6317365809208646
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6868339985527022
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7695590344573863
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7968846320835625
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8249912984423275
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.848897232420959
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8536326089081899
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8569942235881463
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Bicep Curl (Dumbbell)",
+      "current_best_1RM": 24.79133333333333,
+      "expected_sessions_until_pr": 11.619699482315106,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.27416507531808687
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5228691198770219
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.629668142084522
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7486917907628987
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.795748060768503
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8582396204241046
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.9117551990959314
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9316413832598005
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9349476086030534
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Pullover (Dumbbell)",
+      "current_best_1RM": 24.79133333333333,
+      "expected_sessions_until_pr": 16.62277322159949,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.1823875902767409
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.41982411096099315
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.5840945285953689
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7205540930063887
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7736186812523781
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.8289868948657764
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.868598296911998
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8877853013310392
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.892752670801447
+        }
+      ],
+      "50_percent_probability_window": 5,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Bicep Curl (Barbell)",
+      "current_best_1RM": 30.24,
+      "expected_sessions_until_pr": 22.87034755466005,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.2880797798506113
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5972581305785712
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6714407574548846
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7456067574173744
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7669643854926165
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7962627974292453
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8097608034123729
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8246355299617392
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8325020563906166
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 20
+    },
+    {
+      "exercise": "Iso-Lateral High Row (Machine)",
+      "current_best_1RM": 51.41333333333333,
+      "expected_sessions_until_pr": 24.078027380076623,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.35094767045781583
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5819018938129499
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6552271412541211
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7352586314371667
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7637830471747997
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7946936564289326
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8081002495549228
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.813107343667834
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8166862946059932
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 20
+    },
+    {
+      "exercise": "Hip Flexor Raise",
+      "current_best_1RM": 16.799999999999997,
+      "expected_sessions_until_pr": 11.859205743962194,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.20964946032052856
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.42417748064194316
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.5671253817081683
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7023368090372475
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7523259707424363
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.818221194109391
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.856469098551947
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8931278952405902
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9079091221430557
+        }
+      ],
+      "50_percent_probability_window": 5,
+      "80_percent_probability_window": 15
+    },
+    {
+      "exercise": "Glute Kickback (Machine)",
+      "current_best_1RM": 76.73166666666667,
+      "expected_sessions_until_pr": 29.7326766427258,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3482919095012963
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5989905599979546
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6508516179699081
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7102552918790158
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7313683724481452
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7594263069213683
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7712349700531322
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7761573630379694
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7799451881854513
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "kelso shrug",
+      "current_best_1RM": 111.132,
+      "expected_sessions_until_pr": 18.29237183364405,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3121186738316736
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5221944798298621
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6092266169747216
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6874445954154667
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.72794890848442
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7979656894928462
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8431020608001581
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8551605065566877
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8596881943311157
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 20
+    },
+    {
+      "exercise": "Deadlift (Barbell)",
+      "current_best_1RM": 138.27033333333335,
+      "expected_sessions_until_pr": 27.816006271738566,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.2755441212753599
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5372426636789716
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6069386701042925
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.7028718316451428
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7247919886733795
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7566966093947872
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7713402268910838
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7866507291160866
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7981752566912518
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Jefferson Curl",
+      "current_best_1RM": 39.306666666666665,
+      "expected_sessions_until_pr": 25.52329223618009,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.2814289940421756
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.4869793154639339
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.5689204636957719
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6742829455514509
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7200741470609636
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7888104325279706
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8073005114518806
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8245828380321942
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8259451052443965
+        }
+      ],
+      "50_percent_probability_window": 5,
+      "80_percent_probability_window": 20
+    },
+    {
+      "exercise": "Bench Press (Dumbbell)",
+      "current_best_1RM": 45.50833333333333,
+      "expected_sessions_until_pr": 26.655583947029484,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.26654980166109543
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5045958382899398
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.5935114101608578
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6883527953137996
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7176762480855192
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7698944169014473
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7853399665113393
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8003552238231484
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8073065287002014
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": 25
+    },
+    {
+      "exercise": "Shrug (Barbell)",
+      "current_best_1RM": 79.61200000000001,
+      "expected_sessions_until_pr": 28.56432154886839,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.2927353126425367
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.546616848991949
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6099226329096636
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6984200291204372
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.7156489312431646
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7527701375382971
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7678702941322245
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7834783483322577
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7940076537084889
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Seated Cable Row - V Grip (Cable)",
+      "current_best_1RM": 96.76,
+      "expected_sessions_until_pr": 34.95226785699194,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.3170354158451548
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.5487433639447273
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.6023638566600891
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6689299650013842
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.6873226061656319
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7196314386073657
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.733242194065119
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7395085686266316
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7432988318485384
+        }
+      ],
+      "50_percent_probability_window": 3,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "helms row",
+      "current_best_1RM": 19.656,
+      "expected_sessions_until_pr": 25.225670998078755,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.16512128497164358
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.3999342533841468
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.5413658549160958
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6338351960704424
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.6699029269551975
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7177358678397577
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7475967536788166
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7722857622554694
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7983542154855996
+        }
+      ],
+      "50_percent_probability_window": 5,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Reverse Curl (Barbell)",
+      "current_best_1RM": 30.996,
+      "expected_sessions_until_pr": 25.127212634179394,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.16845528843859436
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.34932399369658196
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.4754471378888404
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6035224598149436
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.6606436552308341
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.740366022477694
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7878184640189876
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.8115121838878167
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8214909551602033
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": 25
+    },
+    {
+      "exercise": "Seated Cable Row - Bar Grip",
+      "current_best_1RM": 93.13333333333334,
+      "expected_sessions_until_pr": 34.12127921075715,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.26694739415497115
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.4818430516128106
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.5499065974721609
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.6355927454191173
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.6593299406357944
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7012280670083142
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7206615439054831
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7425576980187678
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7552835817387353
+        }
+      ],
+      "50_percent_probability_window": 5,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Squat (Machine)",
+      "current_best_1RM": 57.148,
+      "expected_sessions_until_pr": 28.1770293764405,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.2349961570801541
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.4240428060750737
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.5277146509773218
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5984523924505147
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.6421201026662733
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7064740571969534
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7438990721087191
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7579932307558185
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7726460069455998
+        }
+      ],
+      "50_percent_probability_window": 5,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Calf Press on Seated Leg Press",
+      "current_best_1RM": 57.148,
+      "expected_sessions_until_pr": 19.669400695780634,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.18974911142437978
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.36513380511864657
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.4795246799137608
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5819245464794953
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.6379070367524798
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7693686458434592
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.821603884988829
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.837783431001756
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.8531919585039976
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": 20
+    },
+    {
+      "exercise": "Single Arm Triceps Pushdown (Cable)",
+      "current_best_1RM": 18.146666666666665,
+      "expected_sessions_until_pr": 31.267374284124095,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.1260032134294936
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.3020669547615097
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.42906602737976496
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5539374988984034
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5999865723837436
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.6435275180521332
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.6862993213172028
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7303228761925059
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7529093347224213
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Incline Bench Press (Dumbbell)",
+      "current_best_1RM": 42.254666666666665,
+      "expected_sessions_until_pr": 36.462524140888334,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.21129508426130317
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.40015224092530755
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.47463404546164345
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5601382308736735
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5962009734319892
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.6783844753772948
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7028300839746396
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7423614080396661
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7454882183025683
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Bicep Curl (Machine)",
+      "current_best_1RM": 34.47866666666666,
+      "expected_sessions_until_pr": 36.51154432542613,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.1450403430970466
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.3416621691700492
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.45678122421011613
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5586723193144105
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5877658114833155
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.6243913627602358
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.6502722400429408
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6989515955124181
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7347904477266092
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Hammer Curl (Dumbbell)",
+      "current_best_1RM": 30.24,
+      "expected_sessions_until_pr": 15.856202655990987,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.17346910019890116
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.33994787760644574
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.4152233312268844
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5368713238048517
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.574155467308284
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.7401780558781446
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.8244199253188322
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.9305642480092254
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.9314105529120863
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": 20
+    },
+    {
+      "exercise": "Chest Press (Machine)",
+      "current_best_1RM": 78.62666666666667,
+      "expected_sessions_until_pr": 32.87351646679714,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.12649374013488324
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.27788589823220433
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.41393284106689654
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5185980861116015
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5666559410274263
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.6560840398449403
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.6865562652595996
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7094391889544691
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7487119690003821
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Leg extensions (plate loaded)",
+      "current_best_1RM": 58.968,
+      "expected_sessions_until_pr": 36.62223168771456,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.1334766278131545
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.2728536698943015
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.36330820943825737
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.4875051203630114
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5664194425727708
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.6693231173362442
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.7053990852056757
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7163271575667861
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7287491615441035
+        }
+      ],
+      "50_percent_probability_window": 10,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lying leg curl (plate loaded)",
+      "current_best_1RM": 106.436,
+      "expected_sessions_until_pr": 26.745003594247052,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.11264424389992012
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.28537104749152786
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.3766357150731754
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.4837127971400188
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5518312947998736
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.6972710097216801
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.735214274520305
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7523195247571081
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.781685781144173
+        }
+      ],
+      "50_percent_probability_window": 10,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Pendulum Squat (Machine)",
+      "current_best_1RM": 48.986666666666665,
+      "expected_sessions_until_pr": 40.338380047046954,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.20154664100681263
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.3579987561696797
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.43364230104222634
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.5147743040035635
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5515708489337814
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.6300782525545399
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.6768489928537521
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6878783285881682
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6950802519105288
+        }
+      ],
+      "50_percent_probability_window": 8,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Rear Delt Reverse Fly (Dumbbell)",
+      "current_best_1RM": 8.883,
+      "expected_sessions_until_pr": 39.5399919042098,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.13093044087543038
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.3099628879086196
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.39602613895551064
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.48679115404125084
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5179605178237812
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.56210749962995
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5961877698191329
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6546530530940358
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7054118974807677
+        }
+      ],
+      "50_percent_probability_window": 10,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Standing Calf Raise (Machine)",
+      "current_best_1RM": 214.55566666666667,
+      "expected_sessions_until_pr": 41.02320870334472,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.15854635441449472
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.35317470038204635
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.4197781678041531
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.48101268321080703
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5104077612306954
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5864784957672442
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.6870136360873271
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.7066506528753655
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7125744341996462
+        }
+      ],
+      "50_percent_probability_window": 10,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Hammer Curl (Cable)",
+      "current_best_1RM": 24.18666666666667,
+      "expected_sessions_until_pr": 49.294953111016,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.13301966078316696
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.2782410856304923
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.3678936345588615
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.4661007113766287
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.5093849649028311
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5575586396577143
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5887845321321847
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6125229954449691
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6378675166337375
+        }
+      ],
+      "50_percent_probability_window": 10,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Glute Bridge",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 63.380590315616345,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.20618453223575428
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.3405931003701963
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.38074100744901385
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.4563613135222826
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.49474190297931164
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5112932492179278
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5256343099406199
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5294033480692177
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5319928104830348
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Nordic Hamstrings Curls",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 63.380590315616345,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.20618453223575428
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.3405931003701963
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.38074100744901385
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.4563613135222826
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.49474190297931164
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5112932492179278
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5256343099406199
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5294033480692177
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5319928104830348
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Hip Thrust (Machine)",
+      "current_best_1RM": 54.42666666666666,
+      "expected_sessions_until_pr": 52.90842145671015,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.16313883162334908
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.32569945708603354
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.3962771347528041
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.4579848223194748
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.48230188804307517
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5439321617779256
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.564965726455122
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5945953113372575
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6063471227835897
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Calf Extension (Machine)",
+      "current_best_1RM": 192.16700000000003,
+      "expected_sessions_until_pr": 47.95317139914135,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.12166680409097341
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.23529614464915727
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.31081200433764566
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.41818109754991206
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.47144602773048294
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5735686773239195
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.6130519173314359
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6249948980683837
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6431118594775211
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lat Pulldown (Cable)",
+      "current_best_1RM": 96.76,
+      "expected_sessions_until_pr": 41.859407573999164,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.06717142165500367
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.18427062892989865
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.2796907203866954
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.402245036956529
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.45343864178660853
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5327535883322709
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5869660487549035
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6607600716005854
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7167969298061789
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Crunch (Machine)",
+      "current_best_1RM": 35.386,
+      "expected_sessions_until_pr": 47.90145825751858,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.0945452971955274
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.23283341394789847
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.32620227159152937
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.4164803261743577
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.45198991859352156
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5150607715572124
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5658651557527743
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6262905567354946
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6620668772632361
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "tricep pushdown single arm",
+      "current_best_1RM": 11.91,
+      "expected_sessions_until_pr": 26.072294379159672,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.0859947847544269
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.1967694942088295
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.30039663408301054
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.40630621910607434
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.4484614604244864
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.5071017697343865
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5747887044543545
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6710133080567591
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.7339088295121583
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Preacher Curl (Barbell)",
+      "current_best_1RM": 40.21666666666666,
+      "expected_sessions_until_pr": 66.69611333903195,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.07639461142879245
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.20359977131865303
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.3192032292826481
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3885841111220446
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.42032391961589766
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4733690737350631
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.4911268910568307
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5047615964318743
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5132144101715643
+        }
+      ],
+      "50_percent_probability_window": 25,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Seated Row (Machine)",
+      "current_best_1RM": 96.46266666666666,
+      "expected_sessions_until_pr": 55.118238772397135,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.1278583812382008
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.24463744610493632
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.314314458158774
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.38805234371603037
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.41812511723538204
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4521672080949335
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.46887606757191136
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5231471839267416
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.589937256323318
+        }
+      ],
+      "50_percent_probability_window": 25,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Back Extension (Hyperextension)",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 74.30484807096119,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.14851984118439732
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.2536274276801249
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.29646159540883277
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3879682695057006
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.41420013219447827
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4288577895864756
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.43936431267214304
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.444165896191953
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.44738962926187464
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "bosu ball leg raise",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 74.41015306890066,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.14741310237475636
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.25275022343659015
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.2955178584604229
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3871429973610292
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.41332453654153956
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.42793187042526937
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.43843839351093683
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.4432399770307468
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.4466247405569934
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Rear Delt Reverse Fly (Cable)",
+      "current_best_1RM": 7.938,
+      "expected_sessions_until_pr": 41.79753585934236,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.07657611671681908
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.18730890161745306
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.2677256260320533
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.35868845750423906
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.4006630367172249
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4783216007369786
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5400597421500153
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6147059299205586
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6771173133111099
+        }
+      ],
+      "50_percent_probability_window": 20,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lunge",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 76.14056814340864,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.13928061755408838
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.24074886471042178
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.28531303254883866
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.377443000154861
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.4003342583509397
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4150219786431232
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.42520408609455496
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.43000566961436515
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.43339043314061176
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Chest Supported Reverse Fly (Dumbbell)",
+      "current_best_1RM": 5.1,
+      "expected_sessions_until_pr": 45.93794368950642,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.08140340390855438
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.2106921378398442
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.2841716746096715
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3616867757992023
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3927733408806604
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4678073236081781
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.512825113555367
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5634179731401123
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6216566887735051
+        }
+      ],
+      "50_percent_probability_window": 20,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lying Leg Curl (Machine)",
+      "current_best_1RM": 91.01666666666668,
+      "expected_sessions_until_pr": 70.91165700131184,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.11176551502806131
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.23064800391440832
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.2884771901728608
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3568705160515009
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3832618822008388
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.43631254408249387
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.45299660963434885
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.4694132949342271
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.47545299840866917
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Romanian Deadlift (Barbell)",
+      "current_best_1RM": 109.083,
+      "expected_sessions_until_pr": 51.42238506913253,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.0357315480574546
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.09141099088041116
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.19080101583423248
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.2977427754770038
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3783189350069861
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.57828505872571
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.6004501228405805
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.6190801073315555
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6454188626693582
+        }
+      ],
+      "50_percent_probability_window": 15,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Chest Fly (Machine)",
+      "current_best_1RM": 111.132,
+      "expected_sessions_until_pr": 52.199639271687914,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.09433588905517976
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.19220928429451878
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.26683656794377764
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3386108004628232
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3685096110456557
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4685332795087477
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.5124056714834901
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.538861602736383
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5868178747351342
+        }
+      ],
+      "50_percent_probability_window": 20,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Jump Squat",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 80.54873054288618,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.09582923403364096
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.1891642688341022
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.24389387153196074
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3246435735309966
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3451778621351914
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.36273950553115575
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.3743381590972906
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.3872771481384377
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.3974173915014523
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Side Plank",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 82.67807845017285,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.09991469836880496
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.19063754814419187
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.2580232239040713
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.32748037592372214
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3441981661002014
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.3585037927596795
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.3665989156286775
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.37473589307215294
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.3796609959119379
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Reverse grip bench press",
+      "current_best_1RM": 36.29333333333333,
+      "expected_sessions_until_pr": 60.978366152511526,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.042973855113572434
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.13534809226296118
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.20813528567536932
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.2970985530296829
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3430743445887887
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.4025428777690023
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.46025379431529256
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5246695883418853
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5663394921575681
+        }
+      ],
+      "50_percent_probability_window": 25,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "T Bar Row",
+      "current_best_1RM": 57.148,
+      "expected_sessions_until_pr": 68.52306119638035,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.0497523864160796
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.12589341426040168
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.19440504804084358
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.29185593549513167
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.3349178632848081
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.38110525752969415
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.40399470050477604
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.4699908384363014
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5080459178236225
+        }
+      ],
+      "50_percent_probability_window": 30,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Cable Fly Crossovers",
+      "current_best_1RM": 17.693,
+      "expected_sessions_until_pr": 58.13298863413276,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.06837803109068663
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.16517219151506224
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.23786028282779847
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.2989002199557905
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.33306780569049976
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.3750628708413548
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.4226173654240786
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.486148444868751
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5533296270750381
+        }
+      ],
+      "50_percent_probability_window": 30,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Dead Bug",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 84.73422021793286,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.08430284642168384
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.17728763947474047
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.238188780356262
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.3022404007725029
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.31809725254412025
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.33367236902380104
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.3434233520801512
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.35632519245407357
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.36550218663303147
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Push Up",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 84.92264806929707,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.08269995689685916
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.17465358909596806
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.2332540526322664
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.2968360739032705
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.31357257858169096
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.32945596615431494
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.3400435840304532
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.35343202873661894
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.3640436123307267
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Seated reverse fly",
+      "current_best_1RM": 8.316,
+      "expected_sessions_until_pr": 45.324452753144826,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.04087765035933455
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.1194798350717603
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.1728221564419683
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.2518860268350228
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.29158527709500637
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.3917223672972817
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.46517043088353227
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.5668030142955447
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.6504434816503945
+        }
+      ],
+      "50_percent_probability_window": 25,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Seated Cable Row - Bar Wide Grip",
+      "current_best_1RM": 45.50833333333333,
+      "expected_sessions_until_pr": 67.20551973483572,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.04426831343147686
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.11984503090246579
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.17590468931168746
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.23671614584250222
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.2754018004965172
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.3435366124875445
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.38683131886315325
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.4705526196330875
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.5238422438038641
+        }
+      ],
+      "50_percent_probability_window": 30,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Squat (Barbell)",
+      "current_best_1RM": 132.678,
+      "expected_sessions_until_pr": 82.05919934970575,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.05052409500639654
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.12567178256923894
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.18317044432641394
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.23420937114600127
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.26054255032328866
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.29804165484451506
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.3221047006503349
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.3607811526441871
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.396766052458415
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Leg Extension (Machine)",
+      "current_best_1RM": 102.81333333333332,
+      "expected_sessions_until_pr": 86.08101171557644,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.039771835801888256
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.10110298977223664
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.1537259187579807
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.22735332864813362
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.2512469434454049
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.29025138291048647
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.3039103303230286
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.3518531141806739
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.37165119210445907
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Plank",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 96.42219446175139,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.07095132138328852
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.1392153678482816
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.17294729525718422
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.20862914084135964
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.21941343966414517
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.2317513058905425
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.24210177583795167
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.2560842855912958
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.27560190266396434
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Standing Leg Curls",
+      "current_best_1RM": 47.177,
+      "expected_sessions_until_pr": 91.34397184733085,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.046666408091769584
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.11212125784651761
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.15230521405531572
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.18614623577081058
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.2109183820932291
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.25185699175573173
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.2787999841799631
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.30116528155715716
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.32329679635900466
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Reverse neck curl",
+      "current_best_1RM": 20.790000000000003,
+      "expected_sessions_until_pr": 92.91742105167027,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.03535336350018814
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.08855934811343336
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.1303894651182934
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.18005899463764652
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.20992704244784988
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.2509515003147087
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.2761495389009455
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.2921808919990968
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.304046868255441
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Chest Expander Horizontal Pull-apart",
+      "current_best_1RM": 57.333333333333336,
+      "expected_sessions_until_pr": 81.20098393595197,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.030424917041167898
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.08486592725155662
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.13012114567758237
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1813138009945381
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.20733531413499062
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.2506301596166264
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.2817556991068224
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.3515690208431792
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.4155344722768062
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Seated Calf Raise",
+      "current_best_1RM": 78.31666666666668,
+      "expected_sessions_until_pr": 77.96129798255153,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.043398274534883985
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.08781789917409721
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.13323232884343128
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.18324914528097846
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.20570872101883797
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.23529493206526142
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.2668584700638702
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.36390225797989606
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.4285672972254292
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Seated Leg Curl (Machine)",
+      "current_best_1RM": 87.69333333333333,
+      "expected_sessions_until_pr": 76.26872641759545,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.04542965287340739
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.09410020738167635
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.1379960496983217
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1816375187383289
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.20317611448548978
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.22858738200480522
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.2571270454553606
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.3600586997171178
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.43535307909887
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Hip Abduction (Machine)",
+      "current_best_1RM": 163.438,
+      "expected_sessions_until_pr": 91.8402534015983,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.03662217383739008
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.09788682131986237
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.13210715134337425
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1789736953124197
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.19336875592142122
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.22522541955729525
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.24371990647991415
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.3010499302405235
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.32743255255912695
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Leg Press (Machine)",
+      "current_best_1RM": 244.935,
+      "expected_sessions_until_pr": 95.48192396660482,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.04025145017121834
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.10177590208197795
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.13808934656504246
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.17688583500669808
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.19035452374410522
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.2229072101424009
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.24642344140082328
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.2734648464291628
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.29033596287350927
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Step Up",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 101.34027133011965,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.06339763479543237
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.1159256210518721
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.14269002821074617
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1736232695835167
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.18334247362871847
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.19574777029575696
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.20547741524369745
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.22063599626268138
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.23461707783755925
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Overhead Press (Barbell)",
+      "current_best_1RM": 57.45333333333333,
+      "expected_sessions_until_pr": 96.38032625770185,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.03135315220354884
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.08159334642535288
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.11886851484700967
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1632930246386064
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.18250308636110613
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.21201568510601687
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.23648682020143308
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.26508407484728747
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.2886604441367616
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lying Neck Extension (Weighted)",
+      "current_best_1RM": 22.11,
+      "expected_sessions_until_pr": 99.16692083498029,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.02915198704467603
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.07800996840685759
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.115701476694136
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.16414465469024453
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.18130013741361817
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.20767377523139774
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.2241910323893479
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.2499291947322413
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.26175050310242653
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Wall Sit",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 101.39814313657405,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.06169998548035094
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.11341239600918074
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.13988592111932108
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1709987439640248
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.180804214063642
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.19358630759548678
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.20378062167305655
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.22167760593680952
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.23697427258754478
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Bench Press (Barbell)",
+      "current_best_1RM": 108.48833333333332,
+      "expected_sessions_until_pr": 87.95202160009794,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.03697114222423703
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.07330692857172694
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.10444671785743376
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.15150715013756721
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.17204655853704443
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.2014191938083525
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.2301442212869066
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.30310236892849673
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.34112163174561017
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Pull Up",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 103.46660819500207,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.05234506185899168
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.10214552662598986
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.12989676623977797
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1578767525792566
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.16731191846822613
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.18121405368000143
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.1905241911352239
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.20922418295417033
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.22191294550897211
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Hip Adduction (Machine)",
+      "current_best_1RM": 111.274,
+      "expected_sessions_until_pr": 95.98109944591312,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.02024314972410901
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.05954402713246354
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.09002803616661492
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.13703714521084254
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.1586508507372334
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.1772295092529238
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.21002022044467794
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.26531960120684206
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.2955927094876878
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lateral Raise (Dumbbell)",
+      "current_best_1RM": 18.9,
+      "expected_sessions_until_pr": 104.10258488109422,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.03549510576791537
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.072639320481108
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.10660617950483253
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1431322585578323
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.15821339638445098
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.17993741169803157
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.19737007442592958
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.214160151639739
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.22356635892673649
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Side Bend (Dumbbell)",
+      "current_best_1RM": 36.29333333333333,
+      "expected_sessions_until_pr": 87.36521961209706,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.03715730984040688
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.07149378809770146
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.10282102570322127
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.13952959554268018
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.15808249961172793
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.18999433435916313
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.22453139360721375
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.31269718883028286
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.3534697679494849
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Leg Raise Parallel Bars",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 107.47567275409216,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.04479871892960974
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.08773074240234191
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.1111767549261371
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1373987671064093
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.14659284290785057
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.15902214570353534
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.16652784901152673
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.18323397216012893
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.19513780023784888
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Rear Delt Reverse Fly (Machine)",
+      "current_best_1RM": 55.787333333333336,
+      "expected_sessions_until_pr": 105.25308596451475,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.01977635813669354
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.05185372210667072
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.07776441543022639
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.1157176872533836
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.13309229622314955
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.15598952618965445
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.17651110530808023
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.20479292450258268
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.22146267015600363
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lying Leg Raise",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 113.7156527204739,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.029535997451781926
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.0570666666148264
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.07071111397687868
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.09135597314636412
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.1022867256579364
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.11196381071490014
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.12068312590602726
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.1365744728480075
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.14506866985910805
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Pull Up (Band)",
+      "current_best_1RM": 35.386,
+      "expected_sessions_until_pr": 112.9174494652427,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.012054569816073557
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.036751553242332924
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.05582651554927831
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.06940411820086789
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.08128956027274437
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.09850073854172947
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.11812082751897601
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.14423238284741857
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.15636750203552663
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Triceps Extension (Cable)",
+      "current_best_1RM": 26.191,
+      "expected_sessions_until_pr": 118.39427922481593,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.012654248648435229
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.034951111160076875
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.04981749349225428
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.06742334185132337
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.07666925403167624
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.09314620827857967
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.09915292931409037
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.10960680347174545
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.11397526444717754
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Torso Rotation",
+      "current_best_1RM": 85.501,
+      "expected_sessions_until_pr": 117.23031855737496,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.0133645888594206
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.03136204774770979
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.047730606881447146
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.0682310867274113
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.07609376947116997
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.09062496282608168
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.10147626573857538
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.11540461660068646
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.12365266130103658
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Lying Neck Curls (Weighted)",
+      "current_best_1RM": 26.605333333333338,
+      "expected_sessions_until_pr": 119.16165701686745,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.012072020905358194
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.0367785583417386
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.047953560058275446
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.06355880754530985
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.07281746285257928
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.08733148949661884
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.09366615255502997
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.10511096060840086
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.10871538157299399
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Face Pull",
+      "current_best_1RM": 31.752,
+      "expected_sessions_until_pr": 120.0467426543211,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.011027361783795264
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.026234095136458246
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.03807017189774098
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.05560764072143343
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.06456438765227601
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.07491933009903062
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.0844093512830193
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.09549705447611767
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.10098263879051617
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Cable Crunch",
+      "current_best_1RM": 57.45333333333333,
+      "expected_sessions_until_pr": 119.60901915615815,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.012006472700851978
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.03106806232166137
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.04322531809792418
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.056248857032182964
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.06145361009523331
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.07452952346694541
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.08342823127360977
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.09830529482545547
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.10405227380617366
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Seated Incline Curl (Dumbbell)",
+      "current_best_1RM": 20.644,
+      "expected_sessions_until_pr": 121.42849255431457,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.013262595541671085
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.03493005722576503
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.042966039702363346
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.048750470098930854
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.05352577964577376
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.06547625447777294
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.07218786822132972
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.08853641910762133
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.0919486029450074
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Hanging Leg Raise",
+      "current_best_1RM": 0.0,
+      "expected_sessions_until_pr": 124.18234301326822,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.016964260566725398
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.03158488375021917
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.03995644986985469
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.049663980340825975
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.05315649697936142
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.057462341658298444
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.0607748280524355
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.06526157683309042
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.06757214461654215
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    },
+    {
+      "exercise": "Pull Up (Assisted)",
+      "current_best_1RM": 22.97733333333333,
+      "expected_sessions_until_pr": 127.35377121065156,
+      "pr_probability_curve": [
+        {
+          "sessions_ahead": 1,
+          "probability": 0.006969624091175075
+        },
+        {
+          "sessions_ahead": 3,
+          "probability": 0.016733841053580778
+        },
+        {
+          "sessions_ahead": 5,
+          "probability": 0.02228255062781781
+        },
+        {
+          "sessions_ahead": 8,
+          "probability": 0.02786749001708344
+        },
+        {
+          "sessions_ahead": 10,
+          "probability": 0.03163753370349309
+        },
+        {
+          "sessions_ahead": 15,
+          "probability": 0.036741673863541435
+        },
+        {
+          "sessions_ahead": 20,
+          "probability": 0.03926100032607183
+        },
+        {
+          "sessions_ahead": 25,
+          "probability": 0.041276989434340994
+        },
+        {
+          "sessions_ahead": 30,
+          "probability": 0.04255642116297598
+        }
+      ],
+      "50_percent_probability_window": null,
+      "80_percent_probability_window": null
+    }
+  ]
+}
