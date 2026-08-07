@@ -14,6 +14,8 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+RAW_WORKOUTS_PATH = DATA / "workouts.csv"
+CLEANED_WORKOUTS_PATH = DATA / "cleaned workouts.csv"
 
 WORKOUT_FEATURES = [
     "relative_strength",
@@ -41,9 +43,11 @@ FITBIT_FEATURES = [
 
 PRODUCTION_FEATURES = WORKOUT_FEATURES
 DEFAULT_CUTOFF_DATE = "2023-10-01"
+PULL_UP_BODYWEIGHT_KG = 205.0 * 0.45359237
+MIN_EXERCISE_SESSIONS = 10
 
 
-def parse_start_date(value: str) -> pd.Timestamp | pd.NaT:
+def parse_start_date(value: str) -> pd.Timestamp:
     if pd.isna(value):
         return pd.NaT
     match = re.search(r"([A-Za-z]+\s+\d{1,2},\s*\d{4})", str(value))
@@ -60,8 +64,15 @@ def parse_start_date(value: str) -> pd.Timestamp | pd.NaT:
 
 def load_data(path: str | Path | None = None) -> pd.DataFrame:
     """Load raw workout rows from CSV."""
-    source = Path(path) if path is not None else DATA / "workouts.csv"
+    source = Path(path) if path is not None else RAW_WORKOUTS_PATH
     return pd.read_csv(source)
+
+
+def save_cleaned_workouts(workouts: pd.DataFrame, path: str | Path | None = None) -> Path:
+    destination = Path(path) if path is not None else CLEANED_WORKOUTS_PATH
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    workouts.to_csv(destination, index=False)
+    return destination
 
 
 def standardize_workout_dates(workouts: pd.DataFrame) -> pd.DataFrame:
@@ -85,6 +96,50 @@ def filter_workouts(workouts: pd.DataFrame, cutoff_date: str = DEFAULT_CUTOFF_DA
     workouts["date"] = pd.to_datetime(workouts["date"]).dt.normalize()
     cutoff = pd.to_datetime(cutoff_date).normalize()
     workouts = workouts.loc[workouts["date"] >= cutoff].copy()
+
+    weight_source = None
+    for candidate in ["weight_kg", "weight", "kg", "weight_lb"]:
+        if candidate in workouts.columns:
+            weight_source = candidate
+            break
+
+    if weight_source is None:
+        raw_weight_kg = pd.Series(0.0, index=workouts.index, dtype=float)
+    elif weight_source == "weight_lb":
+        raw_weight_kg = pd.to_numeric(workouts[weight_source], errors="coerce") * 0.45359237
+    else:
+        raw_weight_kg = pd.to_numeric(workouts[weight_source], errors="coerce")
+
+    workouts["weight_kg"] = raw_weight_kg.fillna(0.0)
+
+    duration_seconds = pd.to_numeric(workouts.get("duration_seconds", 0), errors="coerce").fillna(0.0)
+    distance_km = pd.to_numeric(workouts.get("distance_km", 0), errors="coerce").fillna(0.0)
+    reps = pd.to_numeric(workouts.get("reps", 0), errors="coerce").fillna(0.0)
+
+    is_pull_up = exercise_text.str.contains(r"\bpull\s*-?up\b", regex=True)
+    is_assisted_pull_up = is_pull_up & exercise_text.str.contains(r"assist|band", regex=True)
+    pure_time_or_distance = (duration_seconds > 0) | (distance_km > 0)
+    pure_reps_bodyweight = (reps > 0) & (workouts["weight_kg"] <= 0)
+
+    keep_mask = (~pure_time_or_distance) & ((workouts["weight_kg"] > 0) | is_pull_up)
+    workouts = workouts.loc[keep_mask].copy()
+
+    pull_up_rows = is_pull_up.loc[workouts.index]
+    if pull_up_rows.any():
+        assisted_pull_up_rows = is_assisted_pull_up.loc[workouts.index]
+        workouts.loc[pull_up_rows & (workouts["weight_kg"] <= 0), "weight_kg"] = PULL_UP_BODYWEIGHT_KG
+        assisted_loads = raw_weight_kg.loc[workouts.index].loc[assisted_pull_up_rows]
+        effective_assisted_weight = PULL_UP_BODYWEIGHT_KG - assisted_loads.fillna(0.0)
+        workouts.loc[assisted_pull_up_rows, "weight_kg"] = effective_assisted_weight.clip(lower=0.0)
+
+    # Drop other bodyweight / reps-only movements while preserving pull-ups.
+    bodyweight_non_pull_up = pure_reps_bodyweight.loc[workouts.index] & ~pull_up_rows
+    if bodyweight_non_pull_up.any():
+        workouts = workouts.loc[~bodyweight_non_pull_up].copy()
+
+    session_counts = workouts.groupby("exercise_title")["date"].nunique()
+    valid_exercises = session_counts.loc[session_counts >= MIN_EXERCISE_SESSIONS].index
+    workouts = workouts.loc[workouts["exercise_title"].isin(valid_exercises)].copy()
     return workouts
 
 
@@ -242,6 +297,8 @@ def prepare_model_c_frame(
     workouts = load_data() if raw_workouts is None else raw_workouts.copy()
     workouts = standardize_workout_dates(workouts)
     workouts = filter_workouts(workouts, cutoff_date=cutoff_date)
+    if raw_workouts is None:
+        save_cleaned_workouts(workouts)
     session_frame = aggregate_workouts(workouts)
     session_frame = _per_exercise_time_features(session_frame)
     session_frame = add_training_age(session_frame)

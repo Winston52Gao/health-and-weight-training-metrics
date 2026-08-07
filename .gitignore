@@ -5,6 +5,8 @@
 .env
 .env.*
 
+*.joblib
+
 # Common Python ignores
 __pycache__/
 *.py[cod]

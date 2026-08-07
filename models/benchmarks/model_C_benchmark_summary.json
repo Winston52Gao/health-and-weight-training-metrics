@@ -1,0 +1,74 @@
+{
+  "table": [
+    {
+      "Model": "Heuristic (mean gap)",
+      "C-index": 0.2987392946433321,
+      "IBS": 0.17776696898605734,
+      "MAE": 4.232573677600257,
+      "Brier@5": 0.6356376182645188,
+      "Brier@10": 0.32704498256589065,
+      "Brier@20": 0.039473684210526314,
+      "Mean predicted sessions until PR": 1.897695263949185
+    },
+    {
+      "Model": "Heuristic (median gap)",
+      "C-index": 0.4366854619926592,
+      "IBS": 0.18026083911618299,
+      "MAE": 3.410958904109589,
+      "Brier@5": 0.6360294117647058,
+      "Brier@10": 0.32663316582914576,
+      "Brier@20": 0.039473684210526314,
+      "Mean predicted sessions until PR": 1.1740976645435244
+    },
+    {
+      "Model": "Kaplan-Meier",
+      "C-index": 0.5,
+      "IBS": 0.09011822276158434,
+      "MAE": 37.889184841493154,
+      "Brier@5": 0.23585740788665324,
+      "Brier@10": 0.23475239118545668,
+      "Brier@20": 0.13891657837601748,
+      "Mean predicted sessions until PR": 42.39603415656165
+    },
+    {
+      "Model": "Production RSF",
+      "C-index": 0.8196712591095271,
+      "IBS": 0.06746232146468101,
+      "MAE": 33.55654453355794,
+      "Brier@5": 0.15557434291819502,
+      "Brier@10": 0.17651160069179303,
+      "Brier@20": 0.13372220721032735,
+      "Mean predicted sessions until PR": 64.28044697753084
+    }
+  ],
+  "rsf_outperformance": {
+    "vs_heuristic_mean": {
+      "rsf_better_c_index": true,
+      "rsf_better_ibs": true,
+      "rsf_better_mae": false
+    },
+    "vs_heuristic_median": {
+      "rsf_better_c_index": true,
+      "rsf_better_ibs": true,
+      "rsf_better_mae": false
+    },
+    "vs_kaplan_meier": {
+      "rsf_better_c_index": true,
+      "rsf_better_ibs": true,
+      "rsf_better_mae": true
+    }
+  },
+  "artifacts": {
+    "heuristic_mean_predictions": "models/benchmarks/heuristic_probability_predictions.json",
+    "heuristic_median_predictions": "models/benchmarks/heuristic_probability_predictions.json",
+    "kaplan_meier_predictions": "models/benchmarks/kaplan_meier_predictions.json",
+    "benchmark_metrics": "models/benchmarks/benchmark_metrics.json"
+  },
+  "rsf_source": "trained_in_memory_fallback",
+  "dashboard_schema_compatible_fields": [
+    "exercise",
+    "expected_sessions_until_pr",
+    "probability_within_10_sessions",
+    "probability_curve"
+  ]
+}

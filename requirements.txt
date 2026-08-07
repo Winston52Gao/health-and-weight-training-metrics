@@ -9,3 +9,5 @@ pandas
 python-dateutil
 xgboost
 scikit-survival
+plotly
+streamlit

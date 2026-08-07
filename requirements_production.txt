@@ -3,3 +3,5 @@ numpy
 scikit-survival
 scikit-learn
 joblib
+plotly
+streamlit
