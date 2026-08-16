@@ -166,14 +166,10 @@ def main() -> None:
 
     with st.sidebar:
         st.subheader("Dashboard Controls")
-        if st.button("Refresh forecast data"):
-            st.cache_data.clear()
-            st.rerun()
-
         st.markdown("---")
         st.markdown("### Exercise selector")
         forecast_exercises = sorted(frame["exercise"].dropna().astype(str).unique().tolist()) if not frame.empty else []
-        workout_exercises = sorted(workouts_frame["exercise_title"].dropna().astype(str).unique().tolist()) if not workouts_frame.empty and "exercise_title" in workouts_frame.columns else []
+        workout_exercises = sorted(workouts_frame["exercise_title"].dropna().astype(str).unique().tolist()) if (not workouts_frame.empty and "exercise_title" in workouts_frame.columns) else []
         canonical_exercises = workout_exercises or forecast_exercises
         canonical_exercises = [name for name in canonical_exercises if _is_allowed_selector_exercise(name)]
         exercise_options = canonical_exercises
