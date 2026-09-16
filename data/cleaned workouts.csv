@@ -1,4 +1,341 @@
 title,start_time,end_time,description,exercise_title,superset_id,exercise_notes,set_index,set_type,weight_kg,reps,distance_km,duration_seconds,rpe,date
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Pull Up (Assisted),,,0,normal,92.98643585,9.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Pull Up (Assisted),,,1,normal,74.84643585,8.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Pull Up (Assisted),,,2,normal,74.84643585,8.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Pull Up (Assisted),,,3,normal,74.84643585,7.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Incline Bench Press (Dumbbell),,,0,normal,31.75,12.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Incline Bench Press (Dumbbell),,,1,normal,31.75,7.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Incline Bench Press (Dumbbell),,,2,normal,31.75,5.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,T Bar Row,,,0,normal,52.16,11.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,T Bar Row,,,1,normal,52.16,9.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,T Bar Row,,,2,normal,52.16,5.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Chest Fly (Machine),,,0,normal,72.57,12.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Chest Fly (Machine),,,1,normal,72.57,11.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Chest Fly (Machine),,,2,normal,72.57,8.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Pullover (Dumbbell),,,0,normal,18.14,14.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Pullover (Dumbbell),,,1,normal,18.14,11.0,,,,2026-09-14
+Late night workout 🌙,"Sep 14, 2026, 10:30 PM","Sep 14, 2026, 11:39 PM",,Pullover (Dumbbell),,,2,normal,18.14,9.0,,,,2026-09-14
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Leg Press (Machine),,,0,normal,163.29,20.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Leg Press (Machine),,,1,normal,163.29,15.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Leg Press (Machine),,,2,normal,163.29,10.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Jefferson Curl,,,0,normal,38.56,10.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Jefferson Curl,,,1,normal,38.56,8.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Jefferson Curl,,,2,normal,38.56,6.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Lying Leg Curl (Machine),,,0,normal,63.5,12.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Lying Leg Curl (Machine),,,1,normal,63.5,9.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Lying Leg Curl (Machine),,,2,normal,56.7,7.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Seated Calf Raise,,,0,normal,63.5,12.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Seated Calf Raise,,,1,normal,63.5,9.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Lying Neck Curls (Weighted),,,0,normal,14.74,14.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Lying Neck Curls (Weighted),,,1,normal,12.47,12.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Lying Neck Extension (Weighted),,,0,normal,12.47,15.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Lying Neck Extension (Weighted),,,1,normal,10.21,16.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Leg Extension (Machine),,,0,normal,45.36,15.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Leg Extension (Machine),,,1,normal,45.36,12.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Leg Extension (Machine),,,2,normal,45.36,10.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Overhead Press (Barbell),,Btn press 2nd set only,0,normal,52.16,8.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Overhead Press (Barbell),,Btn press 2nd set only,1,normal,43.09,8.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,13.83,10.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,13.83,7.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Rear Delt Reverse Fly (Machine),,,0,normal,38.56,11.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Rear Delt Reverse Fly (Machine),,,1,normal,38.56,8.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Triceps Extension (Cable),,,0,normal,23.81,12.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Triceps Extension (Cable),,,1,normal,22.68,9.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Bicep Curl (Machine),,,0,normal,27.22,12.0,,,,2026-09-12
+Late night workout 🌙,"Sep 12, 2026, 2:42 PM","Sep 12, 2026, 4:22 PM",,Bicep Curl (Machine),,,1,normal,27.22,9.0,,,,2026-09-12
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Pull Up (Assisted),,,0,normal,92.98643585,8.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Pull Up (Assisted),,,1,normal,74.84643585,9.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Pull Up (Assisted),,,2,normal,74.84643585,8.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Pull Up (Assisted),,,3,normal,74.84643585,7.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Incline Bench Press (Dumbbell),,,0,normal,31.75,11.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Incline Bench Press (Dumbbell),,,1,normal,31.75,7.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Incline Bench Press (Dumbbell),,,2,normal,31.75,5.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Seated Cable Row - Bar Wide Grip,,,0,normal,36.29,11.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Seated Cable Row - Bar Wide Grip,,,1,normal,36.29,8.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Seated Cable Row - Bar Wide Grip,,,2,normal,27.22,14.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Chest Fly (Machine),,,0,normal,72.57,14.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Chest Fly (Machine),,,1,normal,72.57,11.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Chest Fly (Machine),,,2,normal,72.57,8.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Pullover (Dumbbell),,,0,normal,18.14,14.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Pullover (Dumbbell),,,1,normal,18.14,9.0,,,,2026-09-04
+Afternoon workout 💪,"Sep 4, 2026, 9:22 PM","Sep 4, 2026, 10:33 PM",,Pullover (Dumbbell),,,2,normal,18.14,8.0,,,,2026-09-04
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Overhead Press (Barbell),,,0,normal,43.09,10.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Overhead Press (Barbell),,,1,normal,43.09,7.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Overhead Press (Barbell),,,2,normal,43.09,6.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,13.83,9.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,13.83,7.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Single Arm Triceps Pushdown (Cable),,,2,normal,12.47,10.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Bicep Curl (Machine),,,0,normal,27.22,10.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Bicep Curl (Machine),,,1,normal,27.22,9.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Bicep Curl (Machine),,,2,normal,27.22,6.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Rear Delt Reverse Fly (Cable),,,0,normal,5.67,11.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Rear Delt Reverse Fly (Cable),,,1,normal,5.67,8.0,,,,2026-09-01
+Evening workout 🏋️,"Sep 1, 2026, 7:24 PM","Sep 1, 2026, 8:36 PM",,Triceps Extension (Cable),,,0,normal,23.81,12.0,,,,2026-09-01
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Jefferson Curl,,,0,normal,43.09,8.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Jefferson Curl,,,1,normal,43.09,6.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Seated Calf Raise,,,0,normal,40.82,18.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Seated Calf Raise,,,1,normal,40.82,15.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Lying Leg Curl (Machine),,,0,normal,63.5,11.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Lying Leg Curl (Machine),,,1,normal,63.5,8.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Leg Extension (Machine),,,0,normal,79.38,15.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 25, 2026, 8:24 PM","Aug 25, 2026, 9:03 PM",,Leg Extension (Machine),,,1,normal,79.38,12.0,,,,2026-08-25
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Pull Up (Assisted),,,0,normal,92.98643585,8.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Pull Up (Assisted),,,1,normal,92.98643585,5.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Pull Up (Assisted),,,2,normal,74.84643585,8.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Pull Up (Assisted),,,3,normal,74.84643585,8.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Incline Bench Press (Dumbbell),,,0,normal,31.75,12.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Incline Bench Press (Dumbbell),,,1,normal,31.75,8.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Incline Bench Press (Dumbbell),,,2,normal,31.75,6.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Seated Cable Row - Bar Grip,,,0,normal,72.57,10.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Seated Cable Row - Bar Grip,,,1,normal,72.57,8.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Seated Cable Row - Bar Grip,,,2,normal,72.57,7.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Chest Press (Machine),,,0,normal,63.5,12.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Chest Press (Machine),,,1,normal,63.5,10.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Chest Press (Machine),,,2,normal,63.5,7.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Pullover (Dumbbell),,,0,normal,18.14,13.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Pullover (Dumbbell),,,1,normal,18.14,9.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Pullover (Dumbbell),,,2,normal,18.14,8.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 24, 2026, 7:48 PM","Aug 24, 2026, 8:43 PM",,Crunch (Machine),,,0,normal,27.22,10.0,,,,2026-08-24
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Bicep Curl (Machine),,,0,normal,27.22,11.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Bicep Curl (Machine),,,1,normal,27.22,8.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Bicep Curl (Machine),,,2,normal,27.22,6.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,10.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,6.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,13.83,8.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,13.15,9.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Single Arm Triceps Pushdown (Cable),,,2,normal,13.15,6.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Overhead Press (Barbell),,,0,normal,43.09,10.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Overhead Press (Barbell),,,1,normal,43.09,6.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Overhead Press (Barbell),,,2,normal,43.09,8.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Rear Delt Reverse Fly (Cable),,,0,normal,5.67,11.0,,,,2026-08-23
+Evening workout 🏋️,"Aug 23, 2026, 8:49 PM","Aug 23, 2026, 9:10 PM",,Rear Delt Reverse Fly (Cable),,,1,normal,5.67,8.0,,,,2026-08-23
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Jefferson Curl,,,0,normal,38.56,10.0,,,,2026-08-22
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Jefferson Curl,,,1,normal,38.56,8.0,,,,2026-08-22
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Leg Extension (Machine),,,0,normal,79.38,15.0,,,,2026-08-22
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Leg Extension (Machine),,,1,normal,79.38,12.0,,,,2026-08-22
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Leg Extension (Machine),,,2,normal,79.38,7.0,,,,2026-08-22
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Standing Calf Raise (Machine),,Don't know why my Achilles is sore,0,normal,95.25,22.0,,,,2026-08-22
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Standing Calf Raise (Machine),,Don't know why my Achilles is sore,1,normal,95.25,15.0,,,,2026-08-22
+Afternoon workout 💪,"Aug 22, 2026, 2:09 PM","Aug 22, 2026, 2:20 PM",,Lying Leg Curl (Machine),,,0,normal,63.5,11.0,,,,2026-08-22
+Evening workout 🏋️,"Aug 21, 2026, 7:07 PM","Aug 21, 2026, 8:01 PM",,Overhead Press (Barbell),,,0,normal,43.09,5.0,,,,2026-08-21
+Evening workout 🏋️,"Aug 21, 2026, 7:07 PM","Aug 21, 2026, 8:01 PM",,Overhead Press (Barbell),,,1,normal,38.56,7.0,,,,2026-08-21
+Evening workout 🏋️,"Aug 21, 2026, 7:07 PM","Aug 21, 2026, 8:01 PM",,Preacher Curl (Barbell),,Going to switch to machine bicep curl for 2 weeks cause forearm splints from this exercise,0,normal,31.75,10.0,,,,2026-08-21
+Evening workout 🏋️,"Aug 21, 2026, 7:07 PM","Aug 21, 2026, 8:01 PM",,Preacher Curl (Barbell),,Going to switch to machine bicep curl for 2 weeks cause forearm splints from this exercise,1,normal,31.75,6.0,,,,2026-08-21
+Evening workout 🏋️,"Aug 21, 2026, 7:07 PM","Aug 21, 2026, 8:01 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,13.83,9.0,,,,2026-08-21
+Evening workout 🏋️,"Aug 21, 2026, 7:07 PM","Aug 21, 2026, 8:01 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,12.47,11.0,,,,2026-08-21
+Evening workout 🏋️,"Aug 21, 2026, 7:07 PM","Aug 21, 2026, 8:01 PM",,Single Arm Triceps Pushdown (Cable),,,2,normal,12.47,8.0,,,,2026-08-21
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Incline Bench Press (Dumbbell),,,0,normal,31.75,12.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Incline Bench Press (Dumbbell),,,1,normal,31.75,8.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Incline Bench Press (Dumbbell),,,2,normal,31.75,5.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Pull Up (Assisted),,,0,normal,92.98643585,9.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Pull Up (Assisted),,,1,normal,74.84643585,9.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Pull Up (Assisted),,,2,normal,74.84643585,8.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Pull Up (Assisted),,,3,normal,74.84643585,7.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,kelso shrug,,,0,normal,72.57,15.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,kelso shrug,,,1,normal,79.38,10.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,kelso shrug,,,2,normal,79.38,8.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Chest Fly (Machine),,,0,normal,72.57,12.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Chest Fly (Machine),,,1,normal,72.57,8.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Pullover (Dumbbell),,,0,normal,18.14,12.0,,,,2026-08-20
+Evening workout 🏋️,"Aug 20, 2026, 5:18 PM","Aug 20, 2026, 6:19 PM",,Pullover (Dumbbell),,,1,normal,18.14,10.0,,,,2026-08-20
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,13.83,11.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Overhead Press (Barbell),,Last was ohp,0,normal,43.09,10.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Overhead Press (Barbell),,Last was ohp,1,normal,43.09,7.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Overhead Press (Barbell),,Last was ohp,2,normal,43.09,8.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Bicep Curl (Machine),,,0,normal,27.22,11.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Bicep Curl (Machine),,,1,normal,27.22,9.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Bicep Curl (Machine),,,2,normal,27.22,7.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Rear Delt Reverse Fly (Cable),,,0,normal,5.67,11.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Rear Delt Reverse Fly (Cable),,,1,normal,5.67,8.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Rear Delt Reverse Fly (Cable),,,2,normal,5.67,7.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Rear Delt Reverse Fly (Cable),,,3,normal,5.67,6.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Hammer Curl (Cable),,,0,normal,6.8,50.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Hammer Curl (Cable),,,1,normal,6.8,33.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Triceps Extension (Cable),,,0,normal,22.68,11.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 16, 2026, 2:26 PM","Aug 16, 2026, 4:45 PM",,Triceps Extension (Cable),,,1,normal,22.68,9.0,,,,2026-08-16
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Leg Extension (Machine),,,0,normal,79.38,15.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Leg Extension (Machine),,,1,normal,79.38,12.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Leg Extension (Machine),,,2,normal,79.38,7.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Leg Extension (Machine),,,3,normal,68.04,8.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Jefferson Curl,,,0,normal,38.56,10.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Jefferson Curl,,,1,normal,38.56,8.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Lying Leg Curl (Machine),,,0,normal,63.5,13.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Lying Leg Curl (Machine),,,1,normal,63.5,8.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Calf Extension (Machine),,,0,normal,149.69,13.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Calf Extension (Machine),,,1,normal,149.69,9.0,,,,2026-08-15
+Afternoon workout 💪,"Aug 15, 2026, 8:19 PM","Aug 15, 2026, 9:21 PM",,Calf Extension (Machine),,,2,normal,149.69,8.0,,,,2026-08-15
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,Pull Up (Assisted),,,0,normal,92.98643585,9.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,Pull Up (Assisted),,,1,normal,74.84643585,8.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,Pull Up (Assisted),,,2,normal,74.84643585,8.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,Incline Bench Press (Dumbbell),,,0,normal,29.48,15.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,Incline Bench Press (Dumbbell),,,1,normal,29.48,10.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,Incline Bench Press (Dumbbell),,,2,normal,29.48,7.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,kelso shrug,,,0,normal,79.38,12.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 14, 2026, 7:48 PM","Aug 14, 2026, 8:24 PM",,kelso shrug,,,1,normal,79.38,10.0,,,,2026-08-14
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Overhead Press (Barbell),,Ohp pr. Last set was just btn press,0,normal,61.24,1.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Overhead Press (Barbell),,Ohp pr. Last set was just btn press,1,normal,65.77,1.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Overhead Press (Barbell),,Ohp pr. Last set was just btn press,2,normal,43.09,8.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,14.74,8.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,12.47,10.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Single Arm Triceps Pushdown (Cable),,,2,normal,12.47,7.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Preacher Curl (Barbell),,,0,normal,31.75,9.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Preacher Curl (Barbell),,,1,normal,27.22,10.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Bicep Curl (Machine),,,0,normal,27.22,11.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Bicep Curl (Machine),,,1,normal,27.22,10.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Bicep Curl (Machine),,,2,normal,27.22,8.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Lying Neck Extension (Weighted),,,0,normal,10.21,18.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Lying Neck Extension (Weighted),,,1,normal,10.21,16.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Lying Neck Curls (Weighted),,,0,normal,14.74,14.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Lying Neck Curls (Weighted),,,1,normal,14.74,12.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Triceps Extension (Cable),,,0,normal,29.48,7.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Triceps Extension (Cable),,,1,normal,22.68,10.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 12, 2026, 1:36 PM","Aug 12, 2026, 2:33 PM",,Triceps Extension (Cable),,,2,normal,22.68,10.0,,,,2026-08-12
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Lat Pulldown (Cable),,Super wide grip first set,0,normal,63.5,9.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Lat Pulldown (Cable),,Super wide grip first set,1,normal,63.5,8.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Lat Pulldown (Cable),,Super wide grip first set,2,normal,63.5,6.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Incline Bench Press (Dumbbell),,,0,normal,29.48,14.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Incline Bench Press (Dumbbell),,,1,normal,29.48,11.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Incline Bench Press (Dumbbell),,,2,normal,29.48,6.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,T Bar Row,,,0,normal,52.16,12.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,T Bar Row,,,1,normal,52.16,9.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,T Bar Row,,,2,normal,52.16,6.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Chest Fly (Machine),,,0,normal,72.57,12.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Chest Fly (Machine),,,1,normal,72.57,9.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Chest Fly (Machine),,,2,normal,72.57,7.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Torso Rotation,,,0,normal,65.77,11.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Crunch (Machine),,,0,normal,27.22,10.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Pullover (Dumbbell),,,0,normal,18.14,12.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Pullover (Dumbbell),,,1,normal,18.14,10.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 8, 2026, 2:51 PM","Aug 8, 2026, 3:50 PM",,Pullover (Dumbbell),,,2,normal,18.14,7.0,,,,2026-08-08
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Overhead Press (Barbell),,Normal overhead 95 lbs,0,normal,43.09,10.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Overhead Press (Barbell),,Normal overhead 95 lbs,1,normal,43.09,7.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Overhead Press (Barbell),,Normal overhead 95 lbs,2,normal,43.09,6.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Preacher Curl (Barbell),,,0,normal,31.75,11.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Preacher Curl (Barbell),,,1,normal,31.75,7.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Preacher Curl (Barbell),,,2,normal,22.68,16.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,13.83,12.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,13.83,9.0,,,,2026-08-07
+Evening workout 🏋️,"Aug 7, 2026, 5:52 PM","Aug 7, 2026, 8:02 PM",,Single Arm Triceps Pushdown (Cable),,,2,normal,13.83,6.0,,,,2026-08-07
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,Chest Fly (Machine),,,0,normal,72.57,12.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,Chest Fly (Machine),,,1,normal,72.57,9.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,Chest Fly (Machine),,,2,normal,72.57,6.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,Pullover (Dumbbell),,,0,normal,18.14,12.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,Pullover (Dumbbell),,,1,normal,18.14,9.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,Pullover (Dumbbell),,,2,normal,18.14,6.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,kelso shrug,,,0,normal,79.38,12.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,kelso shrug,,,1,normal,79.38,10.0,,,,2026-08-04
+Jank torso workout,"Aug 4, 2026, 8:36 PM","Aug 4, 2026, 9:13 PM",Chest soreness during pull ups????,kelso shrug,,,2,normal,79.38,8.0,,,,2026-08-04
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Jefferson Curl,,,0,normal,36.29,10.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Jefferson Curl,,,1,normal,36.29,9.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Jefferson Curl,,,2,normal,36.29,6.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Standing Calf Raise (Machine),,,0,normal,149.69,12.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Standing Calf Raise (Machine),,,1,normal,149.69,9.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Standing Calf Raise (Machine),,,2,normal,149.69,6.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Leg Extension (Machine),,,0,normal,79.38,15.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Leg Extension (Machine),,,1,normal,79.38,12.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Leg Extension (Machine),,,2,normal,79.38,7.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Standing Leg Curls,,,0,normal,36.29,10.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Standing Leg Curls,,,1,normal,36.29,7.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Torso Rotation,,,0,normal,65.77,11.0,,,,2026-08-03
+Afternoon workout 💪,"Aug 3, 2026, 5:45 PM","Aug 3, 2026, 6:50 PM",,Crunch (Machine),,,0,normal,27.22,10.0,,,,2026-08-03
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Preacher Curl (Barbell),,,0,normal,31.75,9.0,,,,2026-08-02
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Preacher Curl (Barbell),,,1,normal,31.75,6.0,,,,2026-08-02
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Preacher Curl (Barbell),,,2,normal,27.22,8.0,,,,2026-08-02
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Rear Delt Reverse Fly (Machine),,,0,normal,38.56,11.0,,,,2026-08-02
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Rear Delt Reverse Fly (Machine),,,1,normal,38.56,8.0,,,,2026-08-02
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Rear Delt Reverse Fly (Machine),,,2,normal,38.56,6.0,,,,2026-08-02
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,9.0,,,,2026-08-02
+Evening workout 🏋️,"Aug 2, 2026, 8:50 PM","Aug 2, 2026, 9:13 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,6.0,,,,2026-08-02
+Evening workout 🏋️,"Jul 29, 2026, 9:37 PM","Jul 29, 2026, 10:33 PM",,Jefferson Curl,,,0,normal,36.29,10.0,,,,2026-07-29
+Evening workout 🏋️,"Jul 29, 2026, 9:37 PM","Jul 29, 2026, 10:33 PM",,Jefferson Curl,,,1,normal,36.29,8.0,,,,2026-07-29
+Evening workout 🏋️,"Jul 29, 2026, 9:37 PM","Jul 29, 2026, 10:33 PM",,Leg Extension (Machine),,,0,normal,79.38,15.0,,,,2026-07-29
+Evening workout 🏋️,"Jul 29, 2026, 9:37 PM","Jul 29, 2026, 10:33 PM",,Leg Extension (Machine),,,1,normal,79.38,12.0,,,,2026-07-29
+Evening workout 🏋️,"Jul 29, 2026, 9:37 PM","Jul 29, 2026, 10:33 PM",,Leg Extension (Machine),,,2,normal,79.38,7.0,,,,2026-07-29
+Evening workout 🏋️,"Jul 29, 2026, 9:37 PM","Jul 29, 2026, 10:33 PM",,Standing Calf Raise (Machine),,,0,normal,149.69,13.0,,,,2026-07-29
+Evening workout 🏋️,"Jul 29, 2026, 9:37 PM","Jul 29, 2026, 10:33 PM",,Standing Calf Raise (Machine),,,1,normal,149.69,9.0,,,,2026-07-29
+Evening workout 🏋️,"Jul 27, 2026, 7:45 PM","Jul 27, 2026, 8:33 PM",,Pull Up,,,0,normal,92.98643585,10.0,,,,2026-07-27
+Evening workout 🏋️,"Jul 27, 2026, 7:45 PM","Jul 27, 2026, 8:33 PM",,Lat Pulldown (Cable),,,0,normal,79.38,9.0,,,,2026-07-27
+Evening workout 🏋️,"Jul 27, 2026, 7:45 PM","Jul 27, 2026, 8:33 PM",,Lat Pulldown (Cable),,,1,normal,72.57,8.0,,,,2026-07-27
+Evening workout 🏋️,"Jul 27, 2026, 7:45 PM","Jul 27, 2026, 8:33 PM",,Lat Pulldown (Cable),,,2,normal,65.77,7.0,,,,2026-07-27
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Overhead Press (Barbell),,,0,normal,43.09,10.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Overhead Press (Barbell),,,1,normal,43.09,6.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Overhead Press (Barbell),,,2,normal,43.09,6.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Preacher Curl (Barbell),,,0,normal,31.75,10.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Preacher Curl (Barbell),,,1,normal,31.75,6.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Preacher Curl (Barbell),,,2,normal,27.22,8.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,13.83,11.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,13.83,7.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Single Arm Triceps Pushdown (Cable),,,2,normal,13.83,5.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Rear Delt Reverse Fly (Machine),,,0,normal,38.56,11.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Rear Delt Reverse Fly (Machine),,,1,normal,38.56,8.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Rear Delt Reverse Fly (Machine),,,2,normal,38.56,6.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,9.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,6.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Triceps Extension (Cable),,,0,normal,22.68,12.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Triceps Extension (Cable),,,1,normal,22.68,10.0,,,,2026-07-26
+Evening workout 🏋️,"Jul 26, 2026, 8:52 PM","Jul 26, 2026, 9:47 PM",,Torso Rotation,,,0,normal,65.77,11.0,,,,2026-07-26
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Pull Up,,,0,normal,92.98643585,10.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Pull Up (Assisted),,,0,normal,74.84643585,8.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Pull Up (Assisted),,,1,normal,74.84643585,7.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Pull Up (Assisted),,,2,normal,74.84643585,6.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Incline Bench Press (Dumbbell),,,0,normal,31.75,12.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Incline Bench Press (Dumbbell),,,1,normal,29.48,8.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Incline Bench Press (Dumbbell),,,2,normal,29.48,5.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,T Bar Row,,,0,normal,52.16,11.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,T Bar Row,,,1,normal,52.16,8.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,T Bar Row,,,2,normal,40.82,9.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Chest Fly (Machine),,,0,normal,72.57,12.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Chest Fly (Machine),,,1,normal,72.57,9.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Chest Fly (Machine),,,2,normal,72.57,6.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Pullover (Dumbbell),,,0,normal,18.14,12.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Pullover (Dumbbell),,,1,normal,18.14,9.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Pullover (Dumbbell),,,2,normal,18.14,6.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Lying Neck Extension (Weighted),,Tried a different angle on the cable,0,normal,10.21,15.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Lying Neck Extension (Weighted),,Tried a different angle on the cable,1,normal,10.21,16.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Lying Neck Curls (Weighted),,Tried a different angle on the cable,0,normal,14.74,14.0,,,,2026-07-22
+Late night workout 🌙,"Jul 22, 2026, 11:11 PM","Jul 23, 2026, 12:21 AM",,Lying Neck Curls (Weighted),,Tried a different angle on the cable,1,normal,14.74,12.0,,,,2026-07-22
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Overhead Press (Barbell),,,0,normal,43.09,9.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Overhead Press (Barbell),,,1,normal,43.09,7.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Overhead Press (Barbell),,,2,normal,43.09,6.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Preacher Curl (Barbell),,,0,normal,31.75,10.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Preacher Curl (Barbell),,,1,normal,31.75,6.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,10.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,7.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,14.06,10.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Single Arm Triceps Pushdown (Cable),,,1,normal,14.06,7.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Single Arm Triceps Pushdown (Cable),,,2,normal,14.06,5.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Rear Delt Reverse Fly (Cable),,,0,normal,5.67,9.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Rear Delt Reverse Fly (Cable),,,1,normal,5.67,6.0,,,,2026-07-21
+Late night workout 🌙,"Jul 21, 2026, 8:57 PM","Jul 21, 2026, 9:47 PM",,Triceps Extension (Cable),,,0,normal,22.68,12.0,,,,2026-07-21
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Jefferson Curl,,,0,normal,36.29,10.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Jefferson Curl,,,1,normal,36.29,8.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Jefferson Curl,,,2,normal,36.29,5.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Leg Press (Machine),,,0,normal,163.29,18.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Leg Press (Machine),,,1,normal,163.29,12.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Calf Extension (Machine),,,0,normal,149.69,13.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Calf Extension (Machine),,,1,normal,149.69,9.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Calf Extension (Machine),,,2,normal,149.69,8.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Lying Neck Extension (Weighted),,,0,normal,14.74,15.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Lying Neck Extension (Weighted),,,1,normal,14.74,9.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Lying Neck Curls (Weighted),,,0,normal,19.28,14.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Lying Neck Curls (Weighted),,,1,normal,19.28,12.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Leg Extension (Machine),,,0,normal,63.5,15.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 18, 2026, 8:03 PM","Jul 18, 2026, 9:03 PM",,Leg Extension (Machine),,,1,normal,63.5,12.0,,,,2026-07-18
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Incline Bench Press (Dumbbell),,,0,normal,29.48,14.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Incline Bench Press (Dumbbell),,,1,normal,29.48,7.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Incline Bench Press (Dumbbell),,,2,normal,29.48,6.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Pull Up (Assisted),,,0,normal,74.84643585,8.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Pull Up (Assisted),,,1,normal,74.84643585,7.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Pull Up (Assisted),,,2,normal,74.84643585,7.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Pull Up,,,0,normal,92.98643585,9.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,kelso shrug,,,0,normal,79.38,12.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,kelso shrug,,,1,normal,79.38,10.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,kelso shrug,,,2,normal,79.38,8.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Crunch (Machine),,,0,normal,27.22,10.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Torso Rotation,,,0,normal,65.77,11.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Chest Fly (Machine),,,0,normal,72.57,11.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Chest Fly (Machine),,,1,normal,72.57,7.0,,,,2026-07-17
+Evening workout 🏋️,"Jul 17, 2026, 9:06 PM","Jul 17, 2026, 9:53 PM",,Chest Fly (Machine),,,2,normal,72.57,6.0,,,,2026-07-17
 Morning workout ☀️,"Jul 15, 2026, 7:49 AM","Jul 15, 2026, 8:19 AM",,Hammer Curl (Dumbbell),,,0,normal,20.41,10.0,,,,2026-07-15
 Morning workout ☀️,"Jul 15, 2026, 7:49 AM","Jul 15, 2026, 8:19 AM",,Hammer Curl (Dumbbell),,,1,normal,20.41,7.0,,,,2026-07-15
 Morning workout ☀️,"Jul 15, 2026, 7:49 AM","Jul 15, 2026, 8:19 AM",,Overhead Press (Barbell),,,0,normal,43.09,7.0,,,,2026-07-15
@@ -27,6 +364,7 @@ Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,Incline 
 Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,T Bar Row,,,0,normal,52.16,10.0,,,,2026-07-11
 Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,T Bar Row,,,1,normal,52.16,7.0,,,,2026-07-11
 Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,T Bar Row,,,2,normal,40.82,8.0,,,,2026-07-11
+Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,Chest Press (Machine),,,0,normal,68.04,10.0,,,,2026-07-11
 Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,Chest Fly (Machine),,,0,normal,72.57,10.0,,,,2026-07-11
 Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,Chest Fly (Machine),,,1,normal,72.57,6.0,,,,2026-07-11
 Afternoon workout 💪,"Jul 11, 2026, 3:43 PM","Jul 11, 2026, 4:51 PM",,Pullover (Dumbbell),,,0,normal,18.14,12.0,,,,2026-07-11
@@ -63,6 +401,9 @@ Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,Incline B
 Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,T Bar Row,,,0,normal,52.16,10.0,,,,2026-07-06
 Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,T Bar Row,,,1,normal,52.16,6.0,,,,2026-07-06
 Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,T Bar Row,,,2,normal,40.82,7.0,,,,2026-07-06
+Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,Chest Press (Machine),,,0,normal,58.97,12.0,,,,2026-07-06
+Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,Chest Press (Machine),,,1,normal,58.97,9.0,,,,2026-07-06
+Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,Chest Press (Machine),,,2,normal,58.97,7.0,,,,2026-07-06
 Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,Pullover (Dumbbell),,,0,normal,18.14,11.0,,,,2026-07-06
 Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,Pullover (Dumbbell),,,1,normal,18.14,8.0,,,,2026-07-06
 Evening workout 🏋️,"Jul 6, 2026, 7:41 PM","Jul 6, 2026, 9:25 PM",,Pullover (Dumbbell),,,2,normal,18.14,7.0,,,,2026-07-06
@@ -105,6 +446,8 @@ Late night workout 🌙,"Jun 18, 2026, 6:10 PM","Jun 18, 2026, 6:52 PM",,Incline
 Late night workout 🌙,"Jun 18, 2026, 6:10 PM","Jun 18, 2026, 6:52 PM",,Pullover (Dumbbell),,,0,normal,18.14,11.0,,,,2026-06-18
 Late night workout 🌙,"Jun 18, 2026, 6:10 PM","Jun 18, 2026, 6:52 PM",,T Bar Row,,,0,normal,52.16,10.0,,,,2026-06-18
 Late night workout 🌙,"Jun 18, 2026, 6:10 PM","Jun 18, 2026, 6:52 PM",,T Bar Row,,,1,normal,52.16,6.0,,,,2026-06-18
+Late night workout 🌙,"Jun 18, 2026, 6:10 PM","Jun 18, 2026, 6:52 PM",,Chest Press (Machine),,,0,normal,58.97,10.0,,,,2026-06-18
+Late night workout 🌙,"Jun 18, 2026, 6:10 PM","Jun 18, 2026, 6:52 PM",,Chest Press (Machine),,,1,normal,58.97,7.0,,,,2026-06-18
 Morning workout ☀️,"Jun 17, 2026, 9:26 PM","Jun 17, 2026, 10:40 PM",,Overhead Press (Barbell),,Ohp 3rd set,0,normal,43.09,9.0,,,,2026-06-17
 Morning workout ☀️,"Jun 17, 2026, 9:26 PM","Jun 17, 2026, 10:40 PM",,Overhead Press (Barbell),,Ohp 3rd set,1,normal,43.09,7.0,,,,2026-06-17
 Morning workout ☀️,"Jun 17, 2026, 9:26 PM","Jun 17, 2026, 10:40 PM",,Overhead Press (Barbell),,Ohp 3rd set,2,normal,43.09,8.0,,,,2026-06-17
@@ -289,6 +632,8 @@ Evening workout 🏋️,"May 8, 2026, 6:17 PM","May 8, 2026, 6:52 PM",,Chest Fly
 Evening workout 🏋️,"May 8, 2026, 6:17 PM","May 8, 2026, 6:52 PM",,Chest Fly (Machine),,,2,normal,72.57,7.0,,,,2026-05-08
 Evening workout 🏋️,"May 8, 2026, 6:17 PM","May 8, 2026, 6:52 PM",,Lat Pulldown (Cable),,,0,normal,72.57,10.0,,,,2026-05-08
 Evening workout 🏋️,"May 8, 2026, 6:17 PM","May 8, 2026, 6:52 PM",,Lat Pulldown (Cable),,,1,normal,72.57,8.0,,,,2026-05-08
+Evening workout 🏋️,"May 8, 2026, 6:17 PM","May 8, 2026, 6:52 PM",,Chest Press (Machine),,,0,normal,58.97,10.0,,,,2026-05-08
+Evening workout 🏋️,"May 8, 2026, 6:17 PM","May 8, 2026, 6:52 PM",,Chest Press (Machine),,,1,normal,58.97,7.0,,,,2026-05-08
 Morning workout ☀️,"May 7, 2026, 5:49 PM","May 7, 2026, 7:04 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,13.0,,,,2026-05-07
 Morning workout ☀️,"May 7, 2026, 5:49 PM","May 7, 2026, 7:04 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,8.0,,,,2026-05-07
 Morning workout ☀️,"May 7, 2026, 5:49 PM","May 7, 2026, 7:04 PM",,Hammer Curl (Dumbbell),,,2,normal,20.41,6.0,,,,2026-05-07
@@ -488,6 +833,9 @@ Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Pull Up,,A
 Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Lat Pulldown (Cable),,,0,normal,63.5,10.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Lat Pulldown (Cable),,,1,normal,63.5,9.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Lat Pulldown (Cable),,,2,normal,63.5,8.0,,,,2026-04-04
+Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Chest Press (Machine),,,0,normal,68.04,10.0,,,,2026-04-04
+Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Chest Press (Machine),,,1,normal,68.04,6.0,,,,2026-04-04
+Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Chest Press (Machine),,,2,normal,58.97,8.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Pullover (Dumbbell),,,0,normal,18.14,11.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Pullover (Dumbbell),,,1,normal,18.14,7.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Pullover (Dumbbell),,,2,normal,18.14,5.0,,,,2026-04-04
@@ -496,6 +844,10 @@ Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Chest Fly 
 Afternoon workout 💪,"Apr 4, 2026, 3:56 PM","Apr 4, 2026, 4:55 PM",,Chest Fly (Machine),,,2,normal,72.57,7.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Overhead Press (Barbell),,,0,normal,43.09,8.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Overhead Press (Barbell),,,1,normal,38.56,9.0,,,,2026-04-04
+Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Bicep Curl (Machine),,Idk and idc cause I don't use this often to use as a proxy to track,0,normal,27.22,8.0,,,,2026-04-04
+Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Bicep Curl (Machine),,Idk and idc cause I don't use this often to use as a proxy to track,1,normal,22.68,9.0,,,,2026-04-04
+Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Bicep Curl (Machine),,Idk and idc cause I don't use this often to use as a proxy to track,2,normal,22.68,7.0,,,,2026-04-04
+Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Bicep Curl (Machine),,Idk and idc cause I don't use this often to use as a proxy to track,3,normal,22.68,7.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Triceps Extension (Cable),,,0,normal,23.81,9.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Triceps Extension (Cable),,,1,normal,21.55,5.0,,,,2026-04-04
 Afternoon workout 💪,"Apr 4, 2026, 3:26 PM","Apr 4, 2026, 3:27 PM",,Triceps Extension (Cable),,,2,normal,21.55,9.0,,,,2026-04-04
@@ -680,6 +1032,8 @@ Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,Incline Be
 Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,T Bar Row,,,0,normal,40.82,15.0,,,,2026-03-08
 Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,T Bar Row,,,1,normal,40.82,11.0,,,,2026-03-08
 Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,T Bar Row,,,2,normal,40.82,7.0,,,,2026-03-08
+Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,Chest Press (Machine),,,0,normal,68.04,12.0,,,,2026-03-08
+Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,Chest Press (Machine),,,1,normal,68.04,8.0,,,,2026-03-08
 Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,Chest Fly (Machine),,,0,normal,72.57,8.0,,,,2026-03-08
 Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,Chest Fly (Machine),,,1,normal,72.57,6.0,,,,2026-03-08
 Afternoon workout 💪,"Mar 8, 2026, 4:36 PM","Mar 8, 2026, 5:40 PM",,Pullover (Dumbbell),,,0,normal,15.88,11.0,,,,2026-03-08
@@ -875,6 +1229,8 @@ Late night workout 🌙,"Jan 11, 2026, 8:21 PM","Jan 12, 2026, 12:07 AM",,Pullov
 Late night workout 🌙,"Jan 11, 2026, 8:21 PM","Jan 12, 2026, 12:07 AM",,Pullover (Dumbbell),,,1,normal,15.88,7.0,,,,2026-01-11
 Late night workout 🌙,"Jan 11, 2026, 8:21 PM","Jan 12, 2026, 12:07 AM",,T Bar Row,,,0,normal,40.82,15.0,,,,2026-01-11
 Late night workout 🌙,"Jan 11, 2026, 8:21 PM","Jan 12, 2026, 12:07 AM",,T Bar Row,,,1,normal,40.82,10.0,,,,2026-01-11
+Late night workout 🌙,"Jan 11, 2026, 8:21 PM","Jan 12, 2026, 12:07 AM",,Chest Press (Machine),,Idk,0,normal,54.43,19.0,,,,2026-01-11
+Late night workout 🌙,"Jan 11, 2026, 8:21 PM","Jan 12, 2026, 12:07 AM",,Chest Press (Machine),,Idk,1,normal,54.43,14.0,,,,2026-01-11
 Late night workout 🌙,"Jan 9, 2026, 5:40 PM","Jan 9, 2026, 6:43 PM",,Overhead Press (Barbell),,,0,normal,31.75,11.0,,,,2026-01-09
 Late night workout 🌙,"Jan 9, 2026, 5:40 PM","Jan 9, 2026, 6:43 PM",,Overhead Press (Barbell),,,1,normal,31.75,9.0,,,,2026-01-09
 Late night workout 🌙,"Jan 9, 2026, 5:40 PM","Jan 9, 2026, 6:43 PM",,Single Arm Triceps Pushdown (Cable),,,0,normal,10.89,12.0,,,,2026-01-09
@@ -1062,6 +1418,8 @@ Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,Incline B
 Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,Incline Bench Press (Dumbbell),,,1,normal,29.48,9.0,,,,2025-12-09
 Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,Pull Up,,,0,normal,92.98643585,11.0,,,,2025-12-09
 Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,Pull Up,,,1,normal,92.98643585,7.0,,,,2025-12-09
+Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,Chest Press (Machine),,,0,normal,54.43,17.0,,,,2025-12-09
+Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,Chest Press (Machine),,,1,normal,54.43,14.0,,,,2025-12-09
 Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,kelso shrug,,I did it with a machine so idk about the comparison so I'll just go with this,0,normal,40.82,15.0,,,,2025-12-09
 Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,kelso shrug,,I did it with a machine so idk about the comparison so I'll just go with this,1,normal,40.82,12.0,,,,2025-12-09
 Evening workout 🏋️,"Dec 9, 2025, 9:04 PM","Dec 9, 2025, 9:51 PM",,Lying Neck Curls (Weighted),,,0,normal,17.01,21.0,,,,2025-12-09
@@ -1196,6 +1554,8 @@ Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Incline
 Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Incline Bench Press (Dumbbell),,,2,normal,27.22,6.0,,,,2025-11-18
 Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Pullover (Dumbbell),,,0,normal,15.88,11.0,,,,2025-11-18
 Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Pullover (Dumbbell),,,1,normal,15.88,10.0,,,,2025-11-18
+Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Chest Press (Machine),,,0,normal,45.36,15.0,,,,2025-11-18
+Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Chest Press (Machine),,,1,normal,45.36,13.0,,,,2025-11-18
 Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Seated Cable Row - Bar Grip,,,0,normal,63.5,14.0,,,,2025-11-18
 Evening workout 🏋️,"Nov 18, 2025, 7:18 PM","Nov 18, 2025, 8:10 PM",,Seated Cable Row - Bar Grip,,,1,normal,63.5,9.0,,,,2025-11-18
 Leg day,"Nov 17, 2025, 7:49 PM","Nov 17, 2025, 9:02 PM",,Lying Leg Curl (Machine),,,0,normal,63.5,13.0,,,,2025-11-17
@@ -1482,6 +1842,8 @@ Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,Pull Up (Assisted),,,0,norma
 Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,Pull Up (Assisted),,,1,normal,92.98643585,8.0,,,,2025-09-08
 Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,Pull Up (Assisted),,,2,normal,92.98643585,5.0,,,,2025-09-08
 Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,Pull Up (Assisted),,,3,normal,92.98643585,4.0,,,,2025-09-08
+Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,Hammer Curl (Cable),,,0,normal,9.07,50.0,,,,2025-09-08
+Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,Hammer Curl (Cable),,,1,normal,9.07,50.0,,,,2025-09-08
 Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,kelso shrug,,,0,normal,40.82,15.0,,,,2025-09-08
 Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,kelso shrug,,,1,normal,40.82,12.0,,,,2025-09-08
 Pull,"Sep 8, 2025, 5:52 PM","Sep 8, 2025, 6:52 PM",,kelso shrug,,,2,normal,40.82,10.0,,,,2025-09-08
@@ -1537,6 +1899,8 @@ Leg day,"Aug 27, 2025, 10:20 PM","Aug 27, 2025, 11:01 PM",,Romanian Deadlift (Ba
 Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,Lat Pulldown (Cable),,Wide grip (testing exercises that don't irritate the elbow too much,0,normal,88.45,6.0,,,,2025-08-26
 Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,Lat Pulldown (Cable),,Wide grip (testing exercises that don't irritate the elbow too much,1,normal,74.84,8.0,,,,2025-08-26
 Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,Lat Pulldown (Cable),,Wide grip (testing exercises that don't irritate the elbow too much,2,normal,54.43,15.0,,,,2025-08-26
+Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,Hammer Curl (Cable),,,0,normal,9.07,50.0,,,,2025-08-26
+Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,Hammer Curl (Cable),,,1,normal,9.07,50.0,,,,2025-08-26
 Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,kelso shrug,,,0,normal,40.82,15.0,,,,2025-08-26
 Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,kelso shrug,,,1,normal,40.82,12.0,,,,2025-08-26
 Pull,"Aug 26, 2025, 6:41 PM","Aug 26, 2025, 7:41 PM",Why does arm wrestling irritate my elbows,kelso shrug,,,2,normal,40.82,10.0,,,,2025-08-26
@@ -2242,6 +2606,9 @@ Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Bench Press (Barbell),,,2
 Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Pull Up (Assisted),,,0,normal,92.98643585,9.0,,,,2025-05-30
 Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Pull Up (Assisted),,,1,normal,74.84643585,8.0,,,,2025-05-30
 Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Pull Up (Assisted),,,2,normal,74.84643585,7.0,,,,2025-05-30
+Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Hammer Curl (Cable),,,0,normal,26.08,12.0,,,,2025-05-30
+Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Hammer Curl (Cable),,,1,normal,26.08,10.0,,,,2025-05-30
+Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Hammer Curl (Cable),,,2,normal,22.68,12.0,,,,2025-05-30
 Upper,"May 30, 2025, 5:29 PM","May 30, 2025, 6:27 PM",,Torso Rotation,,,0,normal,68.04,8.0,,,,2025-05-30
 Pull,"May 26, 2025, 6:04 PM","May 26, 2025, 6:55 PM",,Pull Up (Assisted),,,0,normal,92.98643585,10.0,,,,2025-05-26
 Pull,"May 26, 2025, 6:04 PM","May 26, 2025, 6:55 PM",,Pull Up (Assisted),,,1,normal,92.98643585,6.0,,,,2025-05-26
@@ -2367,6 +2734,9 @@ Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Pull Up (Assisted),,,1,norma
 Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,9.0,,,,2025-05-07
 Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,7.0,,,,2025-05-07
 Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Hammer Curl (Dumbbell),,,2,normal,20.41,6.0,,,,2025-05-07
+Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Bicep Curl (Machine),,,0,normal,27.22,8.0,,,,2025-05-07
+Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Bicep Curl (Machine),,,1,normal,22.68,9.0,,,,2025-05-07
+Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Bicep Curl (Machine),,,2,normal,22.68,7.0,,,,2025-05-07
 Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Seated Row (Machine),,,0,normal,83.91,13.0,,,,2025-05-07
 Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Seated Row (Machine),,,1,normal,83.91,10.0,,,,2025-05-07
 Pull,"May 7, 2025, 6:28 PM","May 7, 2025, 7:29 PM",,Lying Neck Extension (Weighted),,,0,normal,11.34,16.0,,,,2025-05-07
@@ -2511,6 +2881,9 @@ Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Pull Up (Assisted),,,5,nor
 Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,9.0,,,,2025-04-22
 Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,7.0,,,,2025-04-22
 Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Hammer Curl (Dumbbell),,,2,normal,20.41,5.0,,,,2025-04-22
+Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Bicep Curl (Machine),,,0,normal,27.22,7.0,,,,2025-04-22
+Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Bicep Curl (Machine),,,1,normal,22.68,7.0,,,,2025-04-22
+Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Bicep Curl (Machine),,,2,normal,22.68,5.0,,,,2025-04-22
 Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Seated Row (Machine),,,0,normal,74.84,13.0,,,,2025-04-22
 Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Seated Row (Machine),,,1,normal,74.84,12.0,,,,2025-04-22
 Pull,"Apr 22, 2025, 6:58 PM","Apr 22, 2025, 8:18 PM",,Lying Neck Extension (Weighted),,,0,normal,12.47,14.0,,,,2025-04-22
@@ -2567,6 +2940,9 @@ Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Pull Up (Assisted),,,5,nor
 Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,9.0,,,,2025-04-18
 Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,7.0,,,,2025-04-18
 Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Hammer Curl (Dumbbell),,,2,normal,20.41,5.0,,,,2025-04-18
+Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Bicep Curl (Machine),,,0,normal,27.22,10.0,,,,2025-04-18
+Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Bicep Curl (Machine),,,1,normal,27.22,7.0,,,,2025-04-18
+Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Bicep Curl (Machine),,,2,normal,22.68,7.0,,,,2025-04-18
 Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Seated Row (Machine),,,0,normal,74.84,13.0,,,,2025-04-18
 Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Seated Row (Machine),,,1,normal,74.84,11.0,,,,2025-04-18
 Pull,"Apr 18, 2025, 1:33 PM","Apr 18, 2025, 5:59 PM",,Lying Neck Extension (Weighted),,,0,normal,12.47,14.0,,,,2025-04-18
@@ -2620,6 +2996,9 @@ Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Pull Up (Assisted),,,5,nor
 Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Hammer Curl (Dumbbell),,,0,normal,20.41,9.0,,,,2025-04-11
 Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Hammer Curl (Dumbbell),,,1,normal,20.41,7.0,,,,2025-04-11
 Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Hammer Curl (Dumbbell),,,2,normal,20.41,6.0,,,,2025-04-11
+Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Bicep Curl (Machine),,,0,normal,27.22,7.0,,,,2025-04-11
+Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Bicep Curl (Machine),,,1,normal,22.68,7.0,,,,2025-04-11
+Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Bicep Curl (Machine),,,2,normal,18.14,9.0,,,,2025-04-11
 Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Seated Cable Row - Bar Wide Grip,,Little more strict,0,normal,36.29,8.0,,,,2025-04-11
 Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Seated Cable Row - Bar Wide Grip,,Little more strict,1,normal,31.75,9.0,,,,2025-04-11
 Pull,"Apr 11, 2025, 6:54 PM","Apr 11, 2025, 7:29 PM",,Face Pull,,,0,normal,27.22,9.0,,,,2025-04-11
@@ -3516,6 +3895,7 @@ Push,"Jan 22, 2025, 9:00 AM","Jan 22, 2025, 9:56 AM",,Single Arm Triceps Pushdow
 Push,"Jan 22, 2025, 9:00 AM","Jan 22, 2025, 9:56 AM",,Triceps Extension (Cable),,,0,normal,26.08,11.0,,,,2025-01-22
 Push,"Jan 22, 2025, 9:00 AM","Jan 22, 2025, 9:56 AM",,Lying Neck Curls (Weighted),,,0,normal,31.75,11.0,,,,2025-01-22
 Push,"Jan 22, 2025, 9:00 AM","Jan 22, 2025, 9:56 AM",,Lying Neck Curls (Weighted),,,1,normal,31.75,6.0,,,,2025-01-22
+Push,"Jan 22, 2025, 9:00 AM","Jan 22, 2025, 9:56 AM",,Hammer Curl (Cable),,,0,normal,8.62,72.0,,,,2025-01-22
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Pull Up (Assisted),,8.5,0,normal,92.98643585,8.0,,,,2025-01-21
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Pull Up (Assisted),,8.5,1,normal,74.84643585,8.0,,,,2025-01-21
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Pull Up (Assisted),,8.5,2,normal,74.84643585,7.0,,,,2025-01-21
@@ -3523,6 +3903,7 @@ Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Pull Up (Assisted),,8.5,3
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Pull Up (Assisted),,8.5,4,normal,68.03643585,8.0,,,,2025-01-21
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Pull Up (Assisted),,8.5,5,normal,68.03643585,7.0,,,,2025-01-21
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Pull Up (Assisted),,8.5,6,normal,61.23643585000001,6.0,,,,2025-01-21
+Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Hammer Curl (Cable),,Increase weight,0,normal,7.94,85.0,,,,2025-01-21
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Seated Cable Row - Bar Wide Grip,,,0,normal,36.29,9.0,,,,2025-01-21
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Seated Cable Row - Bar Wide Grip,,,1,normal,31.75,11.0,,,,2025-01-21
 Pull,"Jan 21, 2025, 9:05 AM","Jan 21, 2025, 10:07 AM",,Seated Cable Row - Bar Wide Grip,,,2,normal,31.75,7.0,,,,2025-01-21
@@ -3554,6 +3935,7 @@ Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,Pull Up (Assisted),,8.5,3,
 Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,Pull Up (Assisted),,8.5,4,normal,68.03643585,7.0,,,,2025-01-18
 Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,Pull Up (Assisted),,8.5,5,normal,61.23643585000001,8.0,,,,2025-01-18
 Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,Pull Up (Assisted),,8.5,6,normal,61.23643585000001,7.0,,,,2025-01-18
+Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,Hammer Curl (Cable),,For the elbow,0,normal,6.8,100.0,,,,2025-01-18
 Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,T Bar Row,,,0,normal,52.16,10.0,,,,2025-01-18
 Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,T Bar Row,,,1,normal,40.82,10.0,,,,2025-01-18
 Pull,"Jan 18, 2025, 2:45 PM","Jan 18, 2025, 4:23 PM",,T Bar Row,,,2,normal,40.82,8.0,,,,2025-01-18
@@ -3596,6 +3978,7 @@ Pull,"Jan 15, 2025, 8:49 AM","Jan 15, 2025, 9:32 AM",Elbow is still sad,Lying Ne
 Pull,"Jan 15, 2025, 8:49 AM","Jan 15, 2025, 9:32 AM",Elbow is still sad,Face Pull,,,0,normal,26.08,11.0,,,,2025-01-15
 Pull,"Jan 15, 2025, 8:49 AM","Jan 15, 2025, 9:32 AM",Elbow is still sad,Face Pull,,,1,normal,26.08,9.0,,,,2025-01-15
 Pull,"Jan 15, 2025, 8:49 AM","Jan 15, 2025, 9:32 AM",Elbow is still sad,Torso Rotation,,,0,normal,65.77,9.0,,,,2025-01-15
+Pull,"Jan 15, 2025, 8:49 AM","Jan 15, 2025, 9:32 AM",Elbow is still sad,Hammer Curl (Cable),,,0,normal,5.67,100.0,,,,2025-01-15
 Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Chest Fly (Machine),,,0,normal,58.97,16.0,,,,2025-01-13
 Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Chest Fly (Machine),,,1,normal,58.97,13.0,,,,2025-01-13
 Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Chest Fly (Machine),,,2,normal,58.97,11.0,,,,2025-01-13
@@ -3611,6 +3994,8 @@ Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Triceps Extension (Cable),
 Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Triceps Extension (Cable),,,1,normal,26.08,9.0,,,,2025-01-13
 Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Triceps Extension (Cable),,,2,normal,26.08,7.0,,,,2025-01-13
 Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Lying Neck Curls (Weighted),,,0,normal,31.75,7.0,,,,2025-01-13
+Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Hammer Curl (Cable),,Blood flow cause my elbow is achy,0,normal,6.8,33.0,,,,2025-01-13
+Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Hammer Curl (Cable),,Blood flow cause my elbow is achy,1,normal,6.8,50.0,,,,2025-01-13
 Push,"Jan 13, 2025, 8:47 AM","Jan 13, 2025, 9:47 AM",,Rear Delt Reverse Fly (Machine),,,0,normal,45.36,10.0,,,,2025-01-13
 Pull,"Jan 12, 2025, 1:49 PM","Jan 12, 2025, 2:47 PM",,Pull Up (Assisted),,,0,normal,92.98643585,8.0,,,,2025-01-12
 Pull,"Jan 12, 2025, 1:49 PM","Jan 12, 2025, 2:47 PM",,Pull Up (Assisted),,,1,normal,74.84643585,9.0,,,,2025-01-12
@@ -4213,6 +4598,8 @@ Pull,"Nov 23, 2024, 5:43 PM","Nov 23, 2024, 6:53 PM",,Lying Neck Extension (Weig
 Pull,"Nov 23, 2024, 5:43 PM","Nov 23, 2024, 6:53 PM",,Face Pull,,,0,normal,29.48,10.0,,,,2024-11-23
 Pull,"Nov 23, 2024, 5:43 PM","Nov 23, 2024, 6:53 PM",,Face Pull,,,1,normal,29.48,7.0,,,,2024-11-23
 Pull,"Nov 23, 2024, 5:43 PM","Nov 23, 2024, 6:53 PM",,Torso Rotation,,,0,normal,65.77,10.0,,,,2024-11-23
+Pull,"Nov 23, 2024, 5:43 PM","Nov 23, 2024, 6:53 PM",,Hammer Curl (Cable),,,0,normal,15.88,10.0,,,,2024-11-23
+Pull,"Nov 23, 2024, 5:43 PM","Nov 23, 2024, 6:53 PM",,Hammer Curl (Cable),,,1,normal,15.88,10.0,,,,2024-11-23
 Leg day,"Nov 21, 2024, 9:22 AM","Nov 21, 2024, 10:02 AM",,Lying Leg Curl (Machine),,,0,normal,56.7,13.0,,,,2024-11-21
 Leg day,"Nov 21, 2024, 9:22 AM","Nov 21, 2024, 10:02 AM",,Lying Leg Curl (Machine),,,1,normal,56.7,10.0,,,,2024-11-21
 Leg day,"Nov 21, 2024, 9:22 AM","Nov 21, 2024, 10:02 AM",,Lying Leg Curl (Machine),,,2,normal,56.7,8.0,,,,2024-11-21
